@@ -1,0 +1,559 @@
+{
+  "KEYFRAMES": {
+    "camera": {
+      "groups": []
+    },
+    "layers": {
+      "_AC_050_1__Edifici_esistenti_a8fc9c5e_a31a_4c99_b1f5_ed7d34bf6a91": {
+        "enabled": true,
+        "groups": []
+      },
+      "_CH_038_1__SwissTLM___Aree_con_utilizzo_del_suolo_speciale___Aree_di_determinato_utilizzo_91a0088f_a5d4_4aae_a588_3f7534a45ad4": {
+        "enabled": true,
+        "groups": []
+      },
+      "_CH_038_1__SwissTLM___Aree_con_utilizzo_del_suolo_speciale___Aree_per_i_trasporti_cb667cae_f0c5_4fcc_a65d_172adedea3ee": {
+        "enabled": true,
+        "groups": []
+      },
+      "_CH_038_1__SwissTLM___Aree_con_utilizzo_del_suolo_speciale___Aree_per_il_tempo_libero_d05342ee_9ce6_4059_8999_a755f75562f7": {
+        "enabled": true,
+        "groups": []
+      },
+      "_CH_038_1__SwissTLM___Copertura_del_suolo___Alberi_isolati_db48d811_64ca_4928_a6f1_772865fe065f": {
+        "enabled": true,
+        "groups": []
+      },
+      "_CH_038_1__SwissTLM___Copertura_del_suolo___Tipologia_di_copertura_del_suolo_83bcf4cf_a8fd_47fd_9f3a_177761ff3f3d": {
+        "enabled": true,
+        "groups": []
+      },
+      "_CH_038_1__SwissTLM___Costruzioni_e_infrastrutture___Approvvigionamento_energetico_oggetti_linee_06bde769_f054_4673_8395_ecc07c1ffb51": {
+        "enabled": true,
+        "groups": []
+      },
+      "_CH_038_1__SwissTLM___Costruzioni_e_infrastrutture___Approvvigionamento_energetico_oggetti_punti_d9663c6e_eccf_43d4_8e46_cf88ddcf0475": {
+        "enabled": true,
+        "groups": []
+      },
+      "_CH_038_1__SwissTLM___Costruzioni_e_infrastrutture___Edifici_footprint_4eae6a64_c79f_4519_8dcb_220146a520e5": {
+        "enabled": true,
+        "groups": []
+      },
+      "_CH_038_1__SwissTLM___Costruzioni_e_infrastrutture___Impianti_di_sbarramento_e_bacini_710f3549_e29c_48be_8418_682c3991ec6e": {
+        "enabled": true,
+        "groups": []
+      },
+      "_CH_038_1__SwissTLM___Costruzioni_e_infrastrutture___Infrastrutture_sportive_oggetti_linee_c30300d9_3934_400a_a6bd_990671c8f725": {
+        "enabled": true,
+        "groups": []
+      },
+      "_CH_038_1__SwissTLM___Costruzioni_e_infrastrutture___Infrastrutture_sportive_oggetti_superfici_94fb1627_508a_43f5_ad2a_12f9cdd44fe6": {
+        "enabled": true,
+        "groups": []
+      },
+      "_CH_038_1__SwissTLM___Costruzioni_e_infrastrutture___Muri_61e0f9e0_b1b4_4387_b53b_c7bca21d8054": {
+        "enabled": true,
+        "groups": []
+      },
+      "_CH_038_1__SwissTLM___Costruzioni_e_infrastrutture___Opere_di_protezione_50e7bf73_1e8d_4503_8dc7_724e074e7b92": {
+        "enabled": true,
+        "groups": []
+      },
+      "_CH_038_1__SwissTLM___Oggetti_ed_elementi_topografici_singoli___Elementi_topografici_singoli_091e9abf_a4e1_41bd_91ad_af3b50ac1d37": {
+        "enabled": true,
+        "groups": []
+      },
+      "_CH_038_1__SwissTLM___Rete_idrografica___Laghi_superfici_862a836d_4125_47fe_a597_10f8dad6ee5f": {
+        "enabled": true,
+        "groups": []
+      },
+      "_CH_038_1__SwissTLM___Rete_trasporti_pubblici___Ferrovie_7482d679_5dc3_4635_ad05_44da755a1c12": {
+        "enabled": true,
+        "groups": []
+      },
+      "_CH_038_1__SwissTLM___Rete_viaria___Punti_informazione_viaria_f0298885_650b_4ca1_bcb9_ad2d4792cffc": {
+        "enabled": true,
+        "groups": []
+      },
+      "_CH_038_1__SwissTLM___Rete_viaria___Strade_e_sentieri_e84c0100_0d7b_48f2_90ba_5b764c56dc3c": {
+        "enabled": true,
+        "groups": []
+      },
+      "_CH_055_1__Copertura_del_suolo_ccd07f03_2a18_4dff_9c84_75e5e91805a8": {
+        "enabled": true,
+        "groups": []
+      },
+      "dtm_analysis_6903f8f4_9496_4a81_8241_89b2cec95ab6": {
+        "enabled": true,
+        "groups": []
+      },
+      "fp:99318773": {
+        "enabled": true,
+        "groups": []
+      },
+      "omap_6970a944_e418_458a_83a7_2c0ded89f384": {
+        "enabled": true,
+        "groups": []
+      },
+      "omap_6ca56974_0ffc_4357_a08a_1c0891c97346": {
+        "enabled": true,
+        "groups": []
+      },
+      "omap_d3a186f8_0c6e_46ea_bf33_7e234a6adcd8": {
+        "enabled": true,
+        "groups": []
+      }
+    },
+    "repeat": false
+  },
+  "LAYERS": [
+    {
+      "geomType": 1,
+      "layerId": "omap_6970a944_e418_458a_83a7_2c0ded89f384",
+      "name": "isom_omap_points",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Label": false,
+        "checkBox_Outline": true,
+        "checkBox_Underline": false,
+        "checkBox_Visible": true,
+        "colorButton_BgColor": [
+          255,
+          255,
+          255,
+          176
+        ],
+        "colorButton_ConnColor": [
+          192,
+          192,
+          208,
+          255
+        ],
+        "colorButton_Label": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_OtlColor": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "comboBox_FontFamily": "sans-serif",
+        "comboBox_ObjectType": "Sphere",
+        "comboBox_altitudeMode": null,
+        "comboEdit_Color": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "comboEdit_Color2": {
+          "comboData": null,
+          "comboText": "None",
+          "editText": "",
+          "type": 7
+        },
+        "comboEdit_FilePath": {},
+        "comboEdit_Opacity": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "comboEdit_altitude2": {},
+        "expression_Label": "\"fid\"",
+        "fieldExpressionWidget_altitude": "0",
+        "geomWidget0": {
+          "comboData": null,
+          "comboText": "Expression",
+          "editText": "26.2",
+          "type": 1
+        },
+        "geomWidget1": {},
+        "geomWidget2": {},
+        "geomWidget3": {},
+        "geomWidget4": {},
+        "groupBox_Background": true,
+        "groupBox_Conn": true,
+        "labelHeightWidget": {
+          "comboData": 1,
+          "comboText": "Relative",
+          "editText": "50",
+          "type": 6
+        },
+        "lineEdit_Name": "",
+        "mtlWidget0": {},
+        "mtlWidget1": {},
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true,
+        "slider_FontSize": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 2,
+      "layerId": "omap_d3a186f8_0c6e_46ea_bf33_7e234a6adcd8",
+      "name": "isom_omap_lines",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Visible": true,
+        "comboBox_ObjectType": "Line",
+        "comboBox_altitudeMode": null,
+        "comboEdit_Color": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "comboEdit_Color2": {
+          "comboData": null,
+          "comboText": "None",
+          "editText": "",
+          "type": 7
+        },
+        "comboEdit_FilePath": {},
+        "comboEdit_Opacity": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "comboEdit_altitude2": {},
+        "fieldExpressionWidget_altitude": "0",
+        "geomWidget0": {},
+        "geomWidget1": {},
+        "geomWidget2": {},
+        "geomWidget3": {},
+        "geomWidget4": {},
+        "lineEdit_Name": "",
+        "mtlWidget0": {
+          "checkBox": false,
+          "type": 9
+        },
+        "mtlWidget1": {},
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true
+      },
+      "visible": true
+    },
+    {
+      "geomType": 3,
+      "layerId": "omap_6ca56974_0ffc_4357_a08a_1c0891c97346",
+      "name": "isom_omap_areas",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Label": false,
+        "checkBox_Outline": true,
+        "checkBox_Underline": false,
+        "checkBox_Visible": true,
+        "colorButton_BgColor": [
+          255,
+          255,
+          255,
+          176
+        ],
+        "colorButton_ConnColor": [
+          192,
+          192,
+          208,
+          255
+        ],
+        "colorButton_Label": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_OtlColor": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "comboBox_FontFamily": "sans-serif",
+        "comboBox_ObjectType": "Polygon",
+        "comboBox_altitudeMode": null,
+        "comboEdit_Color": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "comboEdit_Color2": {
+          "comboData": null,
+          "comboText": "None",
+          "editText": "",
+          "type": 7
+        },
+        "comboEdit_FilePath": {},
+        "comboEdit_Opacity": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "comboEdit_altitude2": {},
+        "expression_Label": "\"fid\"",
+        "fieldExpressionWidget_altitude": "0",
+        "geomWidget0": {},
+        "geomWidget1": {},
+        "geomWidget2": {},
+        "geomWidget3": {},
+        "geomWidget4": {},
+        "groupBox_Background": true,
+        "groupBox_Conn": true,
+        "labelHeightWidget": {
+          "comboData": 1,
+          "comboText": "Relative",
+          "editText": "50",
+          "type": 6
+        },
+        "lineEdit_Name": "",
+        "mtlWidget0": {},
+        "mtlWidget1": {},
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true,
+        "slider_FontSize": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "dtm_analysis_6903f8f4_9496_4a81_8241_89b2cec95ab6",
+      "name": "dtm_analysis",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "omap_6ca56974_0ffc_4357_a08a_1c0891c97346",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "102a45c5",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "102a45c5",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "_CH_055_1__Copertura_del_suolo_ccd07f03_2a18_4dff_9c84_75e5e91805a8",
+      "name": "[CH-055.1] Copertura del suolo",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "_AC_050_1__Edifici_esistenti_a8fc9c5e_a31a_4c99_b1f5_ed7d34bf6a91",
+      "name": "[AC-050.1] Edifici esistenti",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "_CH_038_1__SwissTLM___Oggetti_ed_elementi_topografici_singoli___Elementi_topografici_singoli_091e9abf_a4e1_41bd_91ad_af3b50ac1d37",
+      "name": "[CH-038.1] SwissTLM - Oggetti ed elementi topografici singoli - Elementi topografici singoli",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "_CH_038_1__SwissTLM___Aree_con_utilizzo_del_suolo_speciale___Aree_di_determinato_utilizzo_91a0088f_a5d4_4aae_a588_3f7534a45ad4",
+      "name": "[CH-038.1] SwissTLM - Aree con utilizzo del suolo speciale - Aree di determinato utilizzo",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "_CH_038_1__SwissTLM___Aree_con_utilizzo_del_suolo_speciale___Aree_per_il_tempo_libero_d05342ee_9ce6_4059_8999_a755f75562f7",
+      "name": "[CH-038.1] SwissTLM - Aree con utilizzo del suolo speciale - Aree per il tempo libero",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "_CH_038_1__SwissTLM___Costruzioni_e_infrastrutture___Infrastrutture_sportive_oggetti_linee_c30300d9_3934_400a_a6bd_990671c8f725",
+      "name": "[CH-038.1] SwissTLM - Costruzioni e infrastrutture - Infrastrutture sportive oggetti linee",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "_CH_038_1__SwissTLM___Costruzioni_e_infrastrutture___Infrastrutture_sportive_oggetti_superfici_94fb1627_508a_43f5_ad2a_12f9cdd44fe6",
+      "name": "[CH-038.1] SwissTLM - Costruzioni e infrastrutture - Infrastrutture sportive oggetti superfici",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "_CH_038_1__SwissTLM___Aree_con_utilizzo_del_suolo_speciale___Aree_per_i_trasporti_cb667cae_f0c5_4fcc_a65d_172adedea3ee",
+      "name": "[CH-038.1] SwissTLM - Aree con utilizzo del suolo speciale - Aree per i trasporti",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "_CH_038_1__SwissTLM___Costruzioni_e_infrastrutture___Opere_di_protezione_50e7bf73_1e8d_4503_8dc7_724e074e7b92",
+      "name": "[CH-038.1] SwissTLM - Costruzioni e infrastrutture - Opere di protezione",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "_CH_038_1__SwissTLM___Rete_viaria___Punti_informazione_viaria_f0298885_650b_4ca1_bcb9_ad2d4792cffc",
+      "name": "[CH-038.1] SwissTLM - Rete viaria - Punti informazione viaria",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "_CH_038_1__SwissTLM___Costruzioni_e_infrastrutture___Edifici_footprint_4eae6a64_c79f_4519_8dcb_220146a520e5",
+      "name": "[CH-038.1] SwissTLM - Costruzioni e infrastrutture - Edifici footprint",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "_CH_038_1__SwissTLM___Rete_idrografica___Laghi_superfici_862a836d_4125_47fe_a597_10f8dad6ee5f",
+      "name": "[CH-038.1] SwissTLM - Rete idrografica - Laghi superfici",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "_CH_038_1__SwissTLM___Costruzioni_e_infrastrutture___Muri_61e0f9e0_b1b4_4387_b53b_c7bca21d8054",
+      "name": "[CH-038.1] SwissTLM - Costruzioni e infrastrutture - Muri",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "_CH_038_1__SwissTLM___Rete_trasporti_pubblici___Ferrovie_7482d679_5dc3_4635_ad05_44da755a1c12",
+      "name": "[CH-038.1] SwissTLM - Rete trasporti pubblici - Ferrovie",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "_CH_038_1__SwissTLM___Rete_viaria___Strade_e_sentieri_e84c0100_0d7b_48f2_90ba_5b764c56dc3c",
+      "name": "[CH-038.1] SwissTLM - Rete viaria - Strade e sentieri",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "_CH_038_1__SwissTLM___Copertura_del_suolo___Alberi_isolati_db48d811_64ca_4928_a6f1_772865fe065f",
+      "name": "[CH-038.1] SwissTLM - Copertura del suolo - Alberi isolati",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "_CH_038_1__SwissTLM___Costruzioni_e_infrastrutture___Impianti_di_sbarramento_e_bacini_710f3549_e29c_48be_8418_682c3991ec6e",
+      "name": "[CH-038.1] SwissTLM - Costruzioni e infrastrutture - Impianti di sbarramento e bacini",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "_CH_038_1__SwissTLM___Copertura_del_suolo___Tipologia_di_copertura_del_suolo_83bcf4cf_a8fd_47fd_9f3a_177761ff3f3d",
+      "name": "[CH-038.1] SwissTLM - Copertura del suolo - Tipologia di copertura del suolo",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "_CH_038_1__SwissTLM___Costruzioni_e_infrastrutture___Approvvigionamento_energetico_oggetti_linee_06bde769_f054_4673_8395_ecc07c1ffb51",
+      "name": "[CH-038.1] SwissTLM - Costruzioni e infrastrutture - Approvvigionamento energetico oggetti linee",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "_CH_038_1__SwissTLM___Costruzioni_e_infrastrutture___Approvvigionamento_energetico_oggetti_punti_d9663c6e_eccf_43d4_8e46_cf88ddcf0475",
+      "name": "[CH-038.1] SwissTLM - Costruzioni e infrastrutture - Approvvigionamento energetico oggetti punti",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "fp:99318773",
+      "name": "Flat Plane",
+      "properties": {},
+      "visible": false
+    }
+  ],
+  "SCENE": {
+    "checkBox_FixAspectRatio": true,
+    "checkBox_Outline": false,
+    "colorButton_Color": [
+      0,
+      0,
+      0,
+      255
+    ],
+    "colorButton_Fog": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "comboBox_MaterialType": 0,
+    "comboBox_xyShift": true,
+    "groupBox_Fog": false,
+    "lineEdit_CenterX": "2681168.2626",
+    "lineEdit_CenterY": "1129926.8181",
+    "lineEdit_Height": "2621.258858268149",
+    "lineEdit_Rotation": "0",
+    "lineEdit_Width": "2621.258858268149",
+    "lineEdit_zFactor": "1.0",
+    "slider_Fog": 64
+  },
+  "Version": 20701,
+  "WIDGETS": {
+    "NorthArrow": {
+      "color": "0x666666",
+      "visible": true
+    }
+  }
+}
