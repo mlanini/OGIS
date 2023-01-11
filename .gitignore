@@ -1,15 +1,24 @@
 
+<<<<<<< Updated upstream
 resources/ti_dtm.tif
 resources/ti_mask.gpkg
 resources/buffer_multianello.gpkg
 qgis3templates/Thumbs.db
 qfield/omap.gpkg
 qfield/buffer_multianello.gpkg
+=======
+omap.gpkg
+>>>>>>> Stashed changes
 qfield/ogis2web_qfield.qgs~
 qgis3modeler/_old/ogd2mtb_omap.model3
 qgis3modeler/_old/ogd_wfs2mtb_omap.model3
 qgis3modeler/_old/tlm2ogis.model3
 qgis3modeler/_old/tlm2ogis_v2.model3
+<<<<<<< Updated upstream
 omap.gpkg
 ogis2web.qgz
 ogis2web.qgz
+=======
+qgis3templates/Thumbs.db
+resources/ti_dtm.tif
+>>>>>>> Stashed changes
