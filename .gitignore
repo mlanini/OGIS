@@ -10,3 +10,6 @@ qgis3modeler/_old/ogd2mtb_omap.model3
 qgis3modeler/_old/ogd_wfs2mtb_omap.model3
 qgis3modeler/_old/tlm2ogis.model3
 qgis3modeler/_old/tlm2ogis_v2.model3
+omap.gpkg
+ogis2web.qgz
+ogis2web.qgz
