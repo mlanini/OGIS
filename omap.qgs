@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.26.3-Buenos Aires" saveUserFull="Michael Lanini" saveDateTime="2023-01-23T18:20:03" projectname="" saveUser="septe">
+<qgis version="3.26.3-Buenos Aires" saveUserFull="Michael Lanini" saveDateTime="2023-01-23T18:35:57" projectname="" saveUser="septe">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -79,10 +79,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>2670961.09097500005736947</xmin>
-      <ymin>1072994.74430000013671815</ymin>
-      <xmax>2734436.23802499985322356</xmax>
-      <ymax>1167973.53169999993406236</ymax>
+      <xmin>2699592.62604286475107074</xmin>
+      <ymin>1114672.84623792441561818</ymin>
+      <xmax>2701311.34886572835966945</xmax>
+      <ymax>1117244.59624054795131087</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -5894,7 +5894,7 @@ def my_form_open(dialog, layer, feature):
       </elevation>
       <renderer-v2 type="RuleRenderer" symbollevels="0" enableorderby="1" forceraster="0" referencescale="-1">
         <rules key="{44739265-c85b-43db-b3a6-0dfb5c3931df}">
-          <rule symbol="0" label="101 contour" key="{263e862d-48a8-4f86-bd61-6a3e20ca2277}" filter="&quot;code&quot; = '101'"/>
+          <rule scalemaxdenom="15000" symbol="0" label="101 contour" key="{263e862d-48a8-4f86-bd61-6a3e20ca2277}" filter="&quot;code&quot; = '101'"/>
           <rule symbol="1" label="101S contour with slope" key="{bba4f483-2277-49a0-bd41-b78f304a0c37}" filter="&quot;code&quot; = '101S'"/>
           <rule symbol="2" label="102  index contour" key="{97586e74-871a-4c01-aba3-9144c0689957}" filter="&quot;code&quot; = '102'"/>
           <rule symbol="3" label="103 form line" key="{29c01777-c654-43de-bdce-9ec5092dd5ca}" filter="&quot;code&quot; = '103'"/>
@@ -11520,8 +11520,8 @@ def my_form_open(dialog, layer, feature):
       <customproperties>
         <Option type="Map">
           <Option type="int" value="0" name="embeddedWidgets/count"/>
-          <Option type="invalid" name="variableNames"/>
-          <Option type="invalid" name="variableValues"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -11718,7 +11718,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>"code"</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer hasScaleBasedVisibilityFlag="1" wkbType="Point" geometry="Point" simplifyLocal="1" autoRefreshEnabled="0" readOnly="0" autoRefreshTime="0" simplifyAlgorithm="0" type="vector" refreshOnNotifyEnabled="0" simplifyDrawingHints="0" symbologyReferenceScale="-1" refreshOnNotifyMessage="" simplifyDrawingTol="1" styleCategories="AllStyleCategories" legendPlaceholderImage="" maxScale="0" minScale="50000" labelsEnabled="0" simplifyMaxScale="1">
+    <maplayer hasScaleBasedVisibilityFlag="1" wkbType="Point" geometry="Point" simplifyLocal="1" autoRefreshEnabled="0" readOnly="0" autoRefreshTime="0" simplifyAlgorithm="0" type="vector" refreshOnNotifyEnabled="0" simplifyDrawingHints="0" symbologyReferenceScale="-1" refreshOnNotifyMessage="" simplifyDrawingTol="1" styleCategories="AllStyleCategories" legendPlaceholderImage="" maxScale="0" minScale="15000" labelsEnabled="0" simplifyMaxScale="1">
       <extent>
         <xmin>2672688.46499999985098839</xmin>
         <ymin>1075268.23300000000745058</ymin>
@@ -14122,15 +14122,15 @@ def my_form_open(dialog, layer, feature):
       <customproperties>
         <Option type="Map">
           <Option type="int" value="0" name="embeddedWidgets/count"/>
-          <Option type="invalid" name="variableNames"/>
-          <Option type="invalid" name="variableValues"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
-        <DiagramCategory spacingUnit="MM" labelPlacementMethod="XHeight" sizeScale="3x:0,0,0,0,0,0" width="15" height="15" minScaleDenominator="0" penColor="#000000" lineSizeScale="3x:0,0,0,0,0,0" showAxis="1" backgroundAlpha="255" diagramOrientation="Up" minimumSize="0" rotationOffset="270" scaleBasedVisibility="0" spacingUnitScale="3x:0,0,0,0,0,0" sizeType="MM" spacing="5" maxScaleDenominator="0" backgroundColor="#ffffff" direction="0" scaleDependency="Area" barWidth="5" penAlpha="255" opacity="1" lineSizeType="MM" penWidth="0" enabled="0">
+        <DiagramCategory spacingUnit="MM" labelPlacementMethod="XHeight" sizeScale="3x:0,0,0,0,0,0" width="15" height="15" minScaleDenominator="0" penColor="#000000" lineSizeScale="3x:0,0,0,0,0,0" showAxis="1" backgroundAlpha="255" diagramOrientation="Up" minimumSize="0" rotationOffset="270" scaleBasedVisibility="0" spacingUnitScale="3x:0,0,0,0,0,0" sizeType="MM" spacing="5" maxScaleDenominator="50000" backgroundColor="#ffffff" direction="0" scaleDependency="Area" barWidth="5" penAlpha="255" opacity="1" lineSizeType="MM" penWidth="0" enabled="0">
           <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" strikethrough="0" style="" underline="0" bold="0" italic="0"/>
           <attribute field="" color="#000000" colorOpacity="1" label=""/>
           <axisSymbol>
@@ -19881,7 +19881,7 @@ ORDER BY fid;</query>
       <Update type="QStringList"/>
     </WFSTLayers>
     <WFSUrl type="QString"></WFSUrl>
-    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <WMSAccessConstraints type="QString">otherRestrictions</WMSAccessConstraints>
     <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
     <WMSContactMail type="QString">basemap@intelligeo.ch</WMSContactMail>
     <WMSContactOrganization type="QString">intelligeo.ch</WMSContactOrganization>
@@ -19891,7 +19891,6 @@ ORDER BY fid;</query>
     <WMSCrsList type="QStringList">
       <value>EPSG:2056</value>
       <value>EPSG:3857</value>
-      <value>EPSG:4326</value>
     </WMSCrsList>
     <WMSDefaultMapUnitsPerMm type="double">7.5</WMSDefaultMapUnitsPerMm>
     <WMSExtent type="QStringList">
@@ -19901,15 +19900,15 @@ ORDER BY fid;</query>
       <value>1168000</value>
     </WMSExtent>
     <WMSFeatureInfoUseAttributeFormSettings type="bool">false</WMSFeatureInfoUseAttributeFormSettings>
-    <WMSFees type="QString">conditions unknown</WMSFees>
-    <WMSImageQuality type="int">90</WMSImageQuality>
+    <WMSFees type="QString">no conditions apply</WMSFees>
+    <WMSImageQuality type="int">85</WMSImageQuality>
     <WMSKeywordList type="QStringList">
       <value></value>
     </WMSKeywordList>
     <WMSMaxAtlasFeatures type="int">1</WMSMaxAtlasFeatures>
     <WMSOnlineResource type="QString">http://basemap.ch/omap</WMSOnlineResource>
     <WMSPrecision type="QString">1</WMSPrecision>
-    <WMSRootName type="QString">ISOM_OMAP</WMSRootName>
+    <WMSRootName type="QString">ISOM_OMAP_TI</WMSRootName>
     <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
     <WMSServiceAbstract type="QString">Orienteering basemap of Canton Ticino, Switzerland. Experimental web mapping project made with open geospatial data and open source software components. No warranty, no liability.</WMSServiceAbstract>
     <WMSServiceCapabilities type="bool">true</WMSServiceCapabilities>
@@ -21783,7 +21782,7 @@ ORDER BY fid;</query>
   <Bookmarks/>
   <ProjectViewSettings rotation="0" UseProjectScales="0">
     <Scales/>
-    <DefaultViewExtent xmin="2595187.95376250008121133" ymin="1072994.74430000013671815" xmax="2810209.3752374998293817" ymax="1167973.53169999993406236">
+    <DefaultViewExtent xmin="2698481.50307728629559278" ymin="1114672.84623792441561818" xmax="2702422.4718313068151474" ymax="1117244.59624054795131087">
       <spatialrefsys nativeFormat="Wkt">
         <wkt>PROJCRS["CH1903+ / LV95",BASEGEOGCRS["CH1903+",DATUM["CH1903+",ELLIPSOID["Bessel 1841",6377397.155,299.1528128,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4150]],CONVERSION["Swiss Oblique Mercator 1995",METHOD["Hotine Oblique Mercator (variant B)",ID["EPSG",9815]],PARAMETER["Latitude of projection centre",46.9524055555556,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8811]],PARAMETER["Longitude of projection centre",7.43958333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8812]],PARAMETER["Azimuth of initial line",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8813]],PARAMETER["Angle from Rectified to Skew Grid",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8814]],PARAMETER["Scale factor on initial line",1,SCALEUNIT["unity",1],ID["EPSG",8815]],PARAMETER["Easting at projection centre",2600000,LENGTHUNIT["metre",1],ID["EPSG",8816]],PARAMETER["Northing at projection centre",1200000,LENGTHUNIT["metre",1],ID["EPSG",8817]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Cadastre, engineering survey, topographic mapping (large and medium scale)."],AREA["Liechtenstein; Switzerland."],BBOX[45.82,5.96,47.81,10.49]],ID["EPSG",2056]]</wkt>
         <proj4>+proj=somerc +lat_0=46.9524055555556 +lon_0=7.43958333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
