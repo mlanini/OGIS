@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.26.3-Buenos Aires" saveUserFull="Michael Lanini" saveDateTime="2023-01-23T18:51:34" projectname="" saveUser="septe">
+<qgis version="3.26.3-Buenos Aires" saveUserFull="Michael Lanini" saveDateTime="2023-01-23T19:06:09" projectname="" saveUser="septe">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -21,43 +21,34 @@
     <customproperties>
       <Option/>
     </customproperties>
-    <layer-tree-group groupLayer="" expanded="1" name="ISOM_OMAP" checked="Qt::Checked">
+    <layer-tree-group groupLayer="" expanded="1" name="ISOM_OMAP_Ticino" checked="Qt::Checked">
       <customproperties>
         <Option type="Map">
-          <Option type="QString" value="GIS Orienteering Basemap, made with Open Geospatial Data of Canton Ticino, Switzerland" name="wmsAbstract"/>
-          <Option type="QString" value="ISOM_OMAP" name="wmsShortName"/>
-          <Option type="QString" value="GIS Orienteering Basemap" name="wmsTitle"/>
+          <Option type="QString" value="Orienteering basemap of Canton Ticino, Switzerland, based on Open Geospatial Data." name="wmsAbstract"/>
+          <Option type="QString" value="ISOM_OMAP_Ticino" name="wmsShortName"/>
+          <Option type="QString" value="Orienteering Basemap of Canton Ticino - Switzerland" name="wmsTitle"/>
         </Option>
       </customproperties>
-      <layer-tree-group groupLayer="" expanded="1" name="ISOM_OMAP_Ticino" checked="Qt::Checked">
+      <layer-tree-layer legend_exp="" providerKey="postgres" expanded="0" patch_size="-1,-1" name="omap_points" checked="Qt::Checked" legend_split_behavior="0" source="dbname='geodata' host=217.61.105.212 port=5432 sslmode=disable authcfg=ta064x7 key='fid' srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;isom_omap&quot;.&quot;vm_omap_points&quot; (geometria)" id="omap_a56cf699_97f8_4e52_b453_bd0aa0e9e0eb">
         <customproperties>
-          <Option type="Map">
-            <Option type="QString" value="Orienteering basemap of Canton Ticino, Switzerland, according to ISOM 2017 Ed. 2 symbology specification." name="wmsAbstract"/>
-            <Option type="QString" value="ISOM_OMAP_Ticino" name="wmsShortName"/>
-            <Option type="QString" value="Orienteering Basemap of Canton Ticino, Switzerland" name="wmsTitle"/>
-          </Option>
+          <Option/>
         </customproperties>
-        <layer-tree-layer legend_exp="" providerKey="postgres" expanded="0" patch_size="-1,-1" name="omap_points" checked="Qt::Checked" legend_split_behavior="0" source="dbname='geodata' host=217.61.105.212 port=5432 sslmode=disable authcfg=ta064x7 key='fid' srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;isom_omap&quot;.&quot;vm_omap_points&quot; (geometria)" id="omap_a56cf699_97f8_4e52_b453_bd0aa0e9e0eb">
-          <customproperties>
-            <Option/>
-          </customproperties>
-        </layer-tree-layer>
-        <layer-tree-layer legend_exp="" providerKey="postgres" expanded="0" patch_size="-1,-1" name="omap_lines" checked="Qt::Checked" legend_split_behavior="0" source="dbname='geodata' host=217.61.105.212 port=5432 sslmode=disable authcfg=ta064x7 key='fid' srid=2056 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;isom_omap&quot;.&quot;vm_omap_lines&quot; (geometria)" id="omap_95309b5e_86cc_451a_829f_048824f06b23">
-          <customproperties>
-            <Option/>
-          </customproperties>
-        </layer-tree-layer>
-        <layer-tree-layer legend_exp="" providerKey="postgres" expanded="0" patch_size="-1,-1" name="omap_areas" checked="Qt::Checked" legend_split_behavior="0" source="dbname='geodata' host=217.61.105.212 port=5432 sslmode=disable authcfg=ta064x7 key='fid' srid=2056 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;isom_omap&quot;.&quot;isom_omap_areas&quot; (geom)" id="omap_c1406115_6ff2_46ca_bbaa_0a630226c967">
-          <customproperties>
-            <Option/>
-          </customproperties>
-        </layer-tree-layer>
-        <layer-tree-layer legend_exp="" providerKey="postgres" expanded="1" patch_size="-1,-1" name="buffer_multianello" checked="Qt::Checked" legend_split_behavior="0" source="dbname='geodata' host=217.61.105.212 port=5432 sslmode=disable authcfg=ta064x7 key='fid' srid=2056 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;isom_omap&quot;.&quot;buffer_multianello&quot; (geom)" id="buffer_multianello_0a92dc14_33a1_41a7_b107_f748ebf92d77">
-          <customproperties>
-            <Option/>
-          </customproperties>
-        </layer-tree-layer>
-      </layer-tree-group>
+      </layer-tree-layer>
+      <layer-tree-layer legend_exp="" providerKey="postgres" expanded="0" patch_size="-1,-1" name="omap_lines" checked="Qt::Checked" legend_split_behavior="0" source="dbname='geodata' host=217.61.105.212 port=5432 sslmode=disable authcfg=ta064x7 key='fid' srid=2056 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;isom_omap&quot;.&quot;vm_omap_lines&quot; (geometria)" id="omap_95309b5e_86cc_451a_829f_048824f06b23">
+        <customproperties>
+          <Option/>
+        </customproperties>
+      </layer-tree-layer>
+      <layer-tree-layer legend_exp="" providerKey="postgres" expanded="0" patch_size="-1,-1" name="omap_areas" checked="Qt::Checked" legend_split_behavior="0" source="dbname='geodata' host=217.61.105.212 port=5432 sslmode=disable authcfg=ta064x7 key='fid' srid=2056 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;isom_omap&quot;.&quot;isom_omap_areas&quot; (geom)" id="omap_c1406115_6ff2_46ca_bbaa_0a630226c967">
+        <customproperties>
+          <Option/>
+        </customproperties>
+      </layer-tree-layer>
+      <layer-tree-layer legend_exp="" providerKey="postgres" expanded="1" patch_size="-1,-1" name="buffer_multianello" checked="Qt::Checked" legend_split_behavior="0" source="dbname='geodata' host=217.61.105.212 port=5432 sslmode=disable authcfg=ta064x7 key='fid' srid=2056 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;isom_omap&quot;.&quot;buffer_multianello&quot; (geom)" id="buffer_multianello_0a92dc14_33a1_41a7_b107_f748ebf92d77">
+        <customproperties>
+          <Option/>
+        </customproperties>
+      </layer-tree-layer>
     </layer-tree-group>
     <custom-order enabled="0">
       <item>buffer_multianello_0a92dc14_33a1_41a7_b107_f748ebf92d77</item>
@@ -79,10 +70,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>2699592.62604286475107074</xmin>
-      <ymin>1114672.84623792441561818</ymin>
-      <xmax>2701311.34886572835966945</xmax>
-      <ymax>1117244.59624054795131087</ymax>
+      <xmin>2670961.09133737441152334</xmin>
+      <ymin>1072994.74492031987756491</ymin>
+      <xmax>2734436.23757825512439013</xmax>
+      <ymax>1167973.53146687988191843</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -4955,29 +4946,27 @@
     </Option>
   </projectModels>
   <legend updateDrawingOrder="true">
-    <legendgroup open="true" name="ISOM_OMAP" checked="Qt::Checked">
-      <legendgroup open="true" name="ISOM_OMAP_Ticino" checked="Qt::Checked">
-        <legendlayer open="false" drawingOrder="-1" checked="Qt::Checked" name="omap_points" showFeatureCount="0">
-          <filegroup open="false" hidden="false">
-            <legendlayerfile visible="1" isInOverview="0" layerid="omap_a56cf699_97f8_4e52_b453_bd0aa0e9e0eb"/>
-          </filegroup>
-        </legendlayer>
-        <legendlayer open="false" drawingOrder="-1" checked="Qt::Checked" name="omap_lines" showFeatureCount="0">
-          <filegroup open="false" hidden="false">
-            <legendlayerfile visible="1" isInOverview="0" layerid="omap_95309b5e_86cc_451a_829f_048824f06b23"/>
-          </filegroup>
-        </legendlayer>
-        <legendlayer open="false" drawingOrder="-1" checked="Qt::Checked" name="omap_areas" showFeatureCount="0">
-          <filegroup open="false" hidden="false">
-            <legendlayerfile visible="1" isInOverview="0" layerid="omap_c1406115_6ff2_46ca_bbaa_0a630226c967"/>
-          </filegroup>
-        </legendlayer>
-        <legendlayer open="true" drawingOrder="-1" checked="Qt::Checked" name="buffer_multianello" showFeatureCount="0">
-          <filegroup open="true" hidden="false">
-            <legendlayerfile visible="1" isInOverview="0" layerid="buffer_multianello_0a92dc14_33a1_41a7_b107_f748ebf92d77"/>
-          </filegroup>
-        </legendlayer>
-      </legendgroup>
+    <legendgroup open="true" name="ISOM_OMAP_Ticino" checked="Qt::Checked">
+      <legendlayer open="false" drawingOrder="-1" checked="Qt::Checked" name="omap_points" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile visible="1" isInOverview="0" layerid="omap_a56cf699_97f8_4e52_b453_bd0aa0e9e0eb"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer open="false" drawingOrder="-1" checked="Qt::Checked" name="omap_lines" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile visible="1" isInOverview="0" layerid="omap_95309b5e_86cc_451a_829f_048824f06b23"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer open="false" drawingOrder="-1" checked="Qt::Checked" name="omap_areas" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile visible="1" isInOverview="0" layerid="omap_c1406115_6ff2_46ca_bbaa_0a630226c967"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer open="true" drawingOrder="-1" checked="Qt::Checked" name="buffer_multianello" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile visible="1" isInOverview="0" layerid="buffer_multianello_0a92dc14_33a1_41a7_b107_f748ebf92d77"/>
+        </filegroup>
+      </legendlayer>
     </legendgroup>
   </legend>
   <mapViewDocks/>
@@ -21782,7 +21771,7 @@ ORDER BY fid;</query>
   <Bookmarks/>
   <ProjectViewSettings rotation="0" UseProjectScales="0">
     <Scales/>
-    <DefaultViewExtent xmin="2698481.50307728629559278" ymin="1114672.84623792441561818" xmax="2702422.4718313068151474" ymax="1117244.59624054795131087">
+    <DefaultViewExtent xmin="2629925.56643255706876516" ymin="1072994.74492031987756491" xmax="2775471.7624830724671483" ymax="1167973.53146687988191843">
       <spatialrefsys nativeFormat="Wkt">
         <wkt>PROJCRS["CH1903+ / LV95",BASEGEOGCRS["CH1903+",DATUM["CH1903+",ELLIPSOID["Bessel 1841",6377397.155,299.1528128,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4150]],CONVERSION["Swiss Oblique Mercator 1995",METHOD["Hotine Oblique Mercator (variant B)",ID["EPSG",9815]],PARAMETER["Latitude of projection centre",46.9524055555556,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8811]],PARAMETER["Longitude of projection centre",7.43958333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8812]],PARAMETER["Azimuth of initial line",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8813]],PARAMETER["Angle from Rectified to Skew Grid",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8814]],PARAMETER["Scale factor on initial line",1,SCALEUNIT["unity",1],ID["EPSG",8815]],PARAMETER["Easting at projection centre",2600000,LENGTHUNIT["metre",1],ID["EPSG",8816]],PARAMETER["Northing at projection centre",1200000,LENGTHUNIT["metre",1],ID["EPSG",8817]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Cadastre, engineering survey, topographic mapping (large and medium scale)."],AREA["Liechtenstein; Switzerland."],BBOX[45.82,5.96,47.81,10.49]],ID["EPSG",2056]]</wkt>
         <proj4>+proj=somerc +lat_0=46.9524055555556 +lon_0=7.43958333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>

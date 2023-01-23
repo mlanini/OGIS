@@ -28,3 +28,4 @@ omap.qgz
 resources/styles/Thumbs.db
 omap.qgs~
 mapproxy/mapproxy.zip
+mapproxy/omap_config.yaml
