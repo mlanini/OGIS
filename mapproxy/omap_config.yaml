@@ -24,6 +24,7 @@ layers:
   - name: ISOM_OMAP_Ticino
     title: Orienteering basemap of Canton Ticino, Switzerland
     md: 'Orienteering basemap of Canton Ticino, Switzerland, according to ISOM 2017 Ed. 2 symbology specification.'
+    layers:
     - name: omap_points
       title: ISOM OMAP Points
       sources: [omap_wms]
@@ -36,6 +37,7 @@ layers:
   - name: ISOM_OMAP_Ancillary
     title: Ancillary data
     md: 'Non-essential, ancillary data for the Orienteering basemap of Canton Ticino, Switzerland.'
+    layers:
     - name: buffer_multianello
       title: Buffer multi-anello
       sources: [omap_wms]
