@@ -1,0 +1,63 @@
+# -------------------------------
+# MapProxy OMAP configuration.
+# -------------------------------
+# This is a minimal MapProxy configuration for the ISOM OMAP Project.
+#
+# | Version | Modifier   | Description                               |
+# --------------------------------------------------------------------
+# | 0.1     | mlanini    | First ever draft.                         |
+# |         |            |                                           |
+# --------------------------------------------------------------------
+# 
+# Starts the following services:
+# WMS:
+#     capabilities: http://intelligeo.net/cgi-bin/qgis_mapserv.fcgi?service=WMS&version=1.3.0&request=GetCapabilities
+
+
+services:
+  wms:
+    md:
+      title: ISOM OMAP Ticino
+      abstract: Orienteering basemap of Canton Ticino, Switzerland, according to ISOM 2017 Ed. 2 symbology specification.
+
+layers:
+  - name: ISOM_OMAP
+    title: GIS Orienteering Basemap
+    md:
+      abstract: 'GIS Orienteering Basemap, made with Open Geospatial Data of Canton Ticino, Switzerland'
+    layers:
+    - name: ISOM_OMAP_Ticino
+      title: Orienteering basemap of Canton Ticino, Switzerland
+      md:
+        abstract: 'Orienteering basemap of Canton Ticino, Switzerland, according to ISOM 2017 Ed. 2 symbology specification.'
+      sources:
+        omap_wms:
+          type: wms
+          wms_opts:
+            legendgraphic: true
+            featureinfo: false
+          req:
+            url: http://intelligeo.net/cgi-bin/qgis_mapserv.fcgi?version=1.3.0
+            layers: ISOM_OMAP_Ticino
+            transparent: true
+          supported_srs:
+          - EPSG:2056
+          - EPSG:3857
+          coverage:
+            bbox:
+            - 2657810
+            - 1068250
+            - 2745870
+            - 1168975
+            srs: EPSG:2056
+
+caches:
+  omap_cache:
+    grids: [webmercator]
+    sources: [omap_wms]
+
+grids:
+    webmercator:
+        base: GLOBAL_WEBMERCATOR
+
+globals:
