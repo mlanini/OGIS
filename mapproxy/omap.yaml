@@ -59,5 +59,3 @@ grids:
         base: GLOBAL_WEBMERCATOR
 
 globals:
-  image:
-    resampling: bicubic
