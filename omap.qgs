@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.26.3-Buenos Aires" saveUserFull="Michael Lanini" saveDateTime="2023-01-23T19:06:09" projectname="" saveUser="septe">
+<qgis version="3.26.3-Buenos Aires" saveUserFull="Michael Lanini" saveDateTime="2023-01-23T19:12:22" projectname="" saveUser="septe">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -5061,6 +5061,9 @@
       </wgs84extent>
       <id>buffer_multianello_0a92dc14_33a1_41a7_b107_f748ebf92d77</id>
       <datasource>dbname='geodata' host=217.61.105.212 port=5432 sslmode=disable authcfg=ta064x7 key='fid' srid=2056 type=MultiLineString checkPrimaryKeyUnicity='1' table="isom_omap"."buffer_multianello" (geom)</datasource>
+      <shortname>buffer_multinanello</shortname>
+      <title>OMAP Island Rings</title>
+      <abstract>OMAP Island Rings.</abstract>
       <keywordList>
         <value></value>
       </keywordList>
@@ -5611,6 +5614,9 @@ def my_form_open(dialog, layer, feature):
       </wgs84extent>
       <id>omap_95309b5e_86cc_451a_829f_048824f06b23</id>
       <datasource>dbname='geodata' host=217.61.105.212 port=5432 sslmode=disable authcfg=ta064x7 key='fid' srid=2056 type=MultiLineString checkPrimaryKeyUnicity='1' table="isom_omap"."vm_omap_lines" (geometria)</datasource>
+      <shortname>omap_lines</shortname>
+      <title>ISOM OMAP Line Features</title>
+      <abstract>ISOM OMAP Line Features.</abstract>
       <keywordList>
         <value></value>
       </keywordList>
@@ -11722,6 +11728,9 @@ def my_form_open(dialog, layer, feature):
       </wgs84extent>
       <id>omap_a56cf699_97f8_4e52_b453_bd0aa0e9e0eb</id>
       <datasource>dbname='geodata' host=217.61.105.212 port=5432 sslmode=disable authcfg=ta064x7 key='fid' srid=2056 type=Point checkPrimaryKeyUnicity='1' table="isom_omap"."vm_omap_points" (geometria)</datasource>
+      <shortname>omap_points</shortname>
+      <title>ISOM OMAP Point Features</title>
+      <abstract>ISOM OMAP Point Features.</abstract>
       <keywordList>
         <value></value>
       </keywordList>
@@ -14318,6 +14327,9 @@ def my_form_open(dialog, layer, feature):
       </wgs84extent>
       <id>omap_c1406115_6ff2_46ca_bbaa_0a630226c967</id>
       <datasource>dbname='geodata' host=217.61.105.212 port=5432 sslmode=disable authcfg=ta064x7 key='fid' srid=2056 type=MultiPolygon checkPrimaryKeyUnicity='1' table="isom_omap"."isom_omap_areas" (geom)</datasource>
+      <shortname>omap_areas</shortname>
+      <title>ISOM OMAP Area Features</title>
+      <abstract>ISOM OMAP Area Features.</abstract>
       <keywordList>
         <value></value>
       </keywordList>
