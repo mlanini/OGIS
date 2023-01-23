@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.26.3-Buenos Aires" saveUserFull="Michael Lanini" saveDateTime="2023-01-23T18:35:57" projectname="" saveUser="septe">
+<qgis version="3.26.3-Buenos Aires" saveUserFull="Michael Lanini" saveDateTime="2023-01-23T18:51:34" projectname="" saveUser="septe">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -24,7 +24,7 @@
     <layer-tree-group groupLayer="" expanded="1" name="ISOM_OMAP" checked="Qt::Checked">
       <customproperties>
         <Option type="Map">
-          <Option type="QString" value="" name="wmsAbstract"/>
+          <Option type="QString" value="GIS Orienteering Basemap, made with Open Geospatial Data of Canton Ticino, Switzerland" name="wmsAbstract"/>
           <Option type="QString" value="ISOM_OMAP" name="wmsShortName"/>
           <Option type="QString" value="GIS Orienteering Basemap" name="wmsTitle"/>
         </Option>
@@ -52,7 +52,7 @@
             <Option/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer legend_exp="" providerKey="postgres" expanded="1" patch_size="-1,-1" name="buffer_multianello" checked="Qt::Checked" legend_split_behavior="0" source="dbname='geodata' host=postgis.intelligeo.net port=5432 user='postgres' sslmode=disable key='fid' srid=2056 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;isom_omap&quot;.&quot;buffer_multianello&quot; (geom)" id="buffer_multianello_0a92dc14_33a1_41a7_b107_f748ebf92d77">
+        <layer-tree-layer legend_exp="" providerKey="postgres" expanded="1" patch_size="-1,-1" name="buffer_multianello" checked="Qt::Checked" legend_split_behavior="0" source="dbname='geodata' host=217.61.105.212 port=5432 sslmode=disable authcfg=ta064x7 key='fid' srid=2056 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;isom_omap&quot;.&quot;buffer_multianello&quot; (geom)" id="buffer_multianello_0a92dc14_33a1_41a7_b107_f748ebf92d77">
           <customproperties>
             <Option/>
           </customproperties>
@@ -5071,7 +5071,7 @@
         <ymax>46.66136448608796172</ymax>
       </wgs84extent>
       <id>buffer_multianello_0a92dc14_33a1_41a7_b107_f748ebf92d77</id>
-      <datasource>dbname='geodata' host=postgis.intelligeo.net port=5432 user='postgres' password='Khfo37bw' sslmode=disable key='fid' srid=2056 type=MultiLineString checkPrimaryKeyUnicity='1' table="isom_omap"."buffer_multianello" (geom)</datasource>
+      <datasource>dbname='geodata' host=217.61.105.212 port=5432 sslmode=disable authcfg=ta064x7 key='fid' srid=2056 type=MultiLineString checkPrimaryKeyUnicity='1' table="isom_omap"."buffer_multianello" (geom)</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -5425,8 +5425,8 @@
       <customproperties>
         <Option type="Map">
           <Option type="QString" value="0" name="embeddedWidgets/count"/>
-          <Option type="invalid" name="variableNames"/>
-          <Option type="invalid" name="variableValues"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -19519,8 +19519,8 @@ def my_form_open(dialog, layer, feature):
       <customproperties>
         <Option type="Map">
           <Option type="int" value="0" name="embeddedWidgets/count"/>
-          <Option type="invalid" name="variableNames"/>
-          <Option type="invalid" name="variableValues"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
