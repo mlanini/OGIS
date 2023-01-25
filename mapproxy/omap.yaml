@@ -50,7 +50,7 @@ services:
 #          postcode: 6652
 #          state: Ticino
 #          country: Switzerland
-#          phone: +41 79 262 58 89
+#          phone: +41 (0)79 262 58 89
           email: basemap@intelligeo.ch
         access_constraints: 'Ask basemap@intelligeo.ch'
         fees: 'None'
@@ -116,7 +116,7 @@ globals:
     stretch_factor: 1.15
     max_shrink_factor: 4.0
 
-    # Enable 24bit PNG images. Defaults to true (8bit PNG)
+    # Enable 24bit PNG images.
     paletted: false
     formats:
       custom_format:
