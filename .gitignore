@@ -29,3 +29,10 @@ resources/styles/Thumbs.db
 omap.qgs~
 mapproxy/mapproxy.zip
 mapproxy/omap_config.yaml
+data/isom_omap_areas_ti.qmd
+data/isom_omap_areas_ti.sqlite
+data/isom_omap_lines_ti.qmd
+data/isom_omap_lines_ti.sqlite
+data/isom_omap_points_ti.qmd
+data/isom_omap_points_ti.sqlite
+omap_pg_attachments.zip
