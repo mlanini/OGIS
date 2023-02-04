@@ -29,17 +29,17 @@
           <Option name="wmsTitle" value="Orienteering Basemap Ticino" type="QString"/>
         </Option>
       </customproperties>
-      <layer-tree-layer id="omap_a56cf699_97f8_4e52_b453_bd0aa0e9e0eb" name="omap_points" providerKey="ogr" legend_split_behavior="0" source="./data/isom_omap_points_ti.sqlite|layername=isom_omap_points_ti" expanded="0" checked="Qt::Checked" legend_exp="" patch_size="-1,-1">
+      <layer-tree-layer id="omap_a56cf699_97f8_4e52_b453_bd0aa0e9e0eb" name="omap_points" providerKey="ogr" legend_split_behavior="0" source="/home/qgis/projects/data/isom_omap_points_ti.sqlite|layername=isom_omap_points_ti" expanded="0" checked="Qt::Checked" legend_exp="" patch_size="-1,-1">
         <customproperties>
           <Option/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer id="omap_95309b5e_86cc_451a_829f_048824f06b23" name="omap_lines" providerKey="ogr" legend_split_behavior="0" source="./data/isom_omap_lines_ti.sqlite|layername=isom_omap_lines_ti" expanded="0" checked="Qt::Checked" legend_exp="" patch_size="-1,-1">
+      <layer-tree-layer id="omap_95309b5e_86cc_451a_829f_048824f06b23" name="omap_lines" providerKey="ogr" legend_split_behavior="0" source="/home/qgis/projects/data/isom_omap_lines_ti.sqlite|layername=isom_omap_lines_ti" expanded="0" checked="Qt::Checked" legend_exp="" patch_size="-1,-1">
         <customproperties>
           <Option/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer id="omap_c1406115_6ff2_46ca_bbaa_0a630226c967" name="omap_areas" providerKey="ogr" legend_split_behavior="0" source="./data/isom_omap_areas_ti.sqlite|layername=isom_omap_areas_ti" expanded="0" checked="Qt::Checked" legend_exp="" patch_size="-1,-1">
+      <layer-tree-layer id="omap_c1406115_6ff2_46ca_bbaa_0a630226c967" name="omap_areas" providerKey="ogr" legend_split_behavior="0" source="/home/qgis/projects/data/isom_omap_areas_ti.sqlite|layername=isom_omap_areas_ti" expanded="0" checked="Qt::Checked" legend_exp="" patch_size="-1,-1">
         <customproperties>
           <Option/>
         </customproperties>
@@ -171,7 +171,7 @@
         <ymax>46.6387204813753371</ymax>
       </wgs84extent>
       <id>omap_95309b5e_86cc_451a_829f_048824f06b23</id>
-      <datasource>./data/isom_omap_lines_ti.sqlite|layername=isom_omap_lines_ti</datasource>
+      <datasource>/home/qgis/projects/data/isom_omap_lines_ti.sqlite|layername=isom_omap_lines_ti</datasource>
       <shortname>omap_lines</shortname>
       <title>OMAP Line Features</title>
       <abstract>OMAP Line Features.</abstract>
@@ -6300,7 +6300,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>46.61023948194814892</ymax>
       </wgs84extent>
       <id>omap_a56cf699_97f8_4e52_b453_bd0aa0e9e0eb</id>
-      <datasource>./data/isom_omap_points_ti.sqlite|layername=isom_omap_points_ti</datasource>
+      <datasource>/home/qgis/projects/data/isom_omap_points_ti.sqlite|layername=isom_omap_points_ti</datasource>
       <shortname>omap_points</shortname>
       <title>OMAP Point Features</title>
       <abstract>OMAP Point Features.</abstract>
@@ -8914,7 +8914,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>46.63872321010189381</ymax>
       </wgs84extent>
       <id>omap_c1406115_6ff2_46ca_bbaa_0a630226c967</id>
-      <datasource>./data/isom_omap_areas_ti.sqlite|layername=isom_omap_areas_ti</datasource>
+      <datasource>/home/qgis/projects/data/isom_omap_areas_ti.sqlite|layername=isom_omap_areas_ti</datasource>
       <shortname>omap_areas</shortname>
       <title>ISOM OMAP Area Features</title>
       <abstract>ISOM OMAP Area Features.</abstract>
