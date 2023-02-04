@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUserFull="Michael Lanini" saveUser="septe" saveDateTime="2023-02-04T10:47:41" projectname="Orienteering Basemap Ticino" version="3.26.3-Buenos Aires">
+<qgis saveUserFull="Michael Lanini" saveUser="septe" saveDateTime="2023-02-04T11:28:08" projectname="Orienteering Basemap Ticino" version="3.26.3-Buenos Aires">
   <homePath path=""/>
   <title>Orienteering Basemap Ticino</title>
   <transaction mode="Disabled"/>
@@ -29,17 +29,17 @@
           <Option name="wmsTitle" value="Orienteering Basemap Ticino" type="QString"/>
         </Option>
       </customproperties>
-      <layer-tree-layer id="omap_a56cf699_97f8_4e52_b453_bd0aa0e9e0eb" name="omap_points" providerKey="ogr" legend_split_behavior="0" source="/home/qgis/projects/data/isom_omap_points_ti.sqlite|layername=isom_omap_points_ti" expanded="0" checked="Qt::Checked" legend_exp="" patch_size="-1,-1">
+      <layer-tree-layer id="omap_a56cf699_97f8_4e52_b453_bd0aa0e9e0eb" name="omap_points" providerKey="postgres" legend_split_behavior="0" source="dbname='geodata' host=postgis.intelligeo.net port=5432 authcfg=ta064x7 key='fid' srid=2056 type=Point checkPrimaryKeyUnicity='0' table=&quot;isom_omap&quot;.&quot;vm_omap_points_simple&quot; (geometria)" expanded="0" checked="Qt::Checked" legend_exp="" patch_size="-1,-1">
         <customproperties>
           <Option/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer id="omap_95309b5e_86cc_451a_829f_048824f06b23" name="omap_lines" providerKey="ogr" legend_split_behavior="0" source="/home/qgis/projects/data/isom_omap_lines_ti.sqlite|layername=isom_omap_lines_ti" expanded="0" checked="Qt::Checked" legend_exp="" patch_size="-1,-1">
+      <layer-tree-layer id="omap_95309b5e_86cc_451a_829f_048824f06b23" name="omap_lines" providerKey="postgres" legend_split_behavior="0" source="dbname='geodata' host=postgis.intelligeo.net port=5432 authcfg=ta064x7 key='fid' srid=2056 type=MultiLineString checkPrimaryKeyUnicity='0' table=&quot;isom_omap&quot;.&quot;vm_omap_lines_simple&quot; (geometria)" expanded="0" checked="Qt::Checked" legend_exp="" patch_size="-1,-1">
         <customproperties>
           <Option/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer id="omap_c1406115_6ff2_46ca_bbaa_0a630226c967" name="omap_areas" providerKey="ogr" legend_split_behavior="0" source="/home/qgis/projects/data/isom_omap_areas_ti.sqlite|layername=isom_omap_areas_ti" expanded="0" checked="Qt::Checked" legend_exp="" patch_size="-1,-1">
+      <layer-tree-layer id="omap_c1406115_6ff2_46ca_bbaa_0a630226c967" name="omap_areas" providerKey="postgres" legend_split_behavior="0" source="dbname='geodata' host=postgis.intelligeo.net port=5432 authcfg=ta064x7 key='fid' srid=2056 type=MultiPolygon checkPrimaryKeyUnicity='0' table=&quot;isom_omap&quot;.&quot;vm_omap_areas_simple&quot; (geometria)" expanded="0" checked="Qt::Checked" legend_exp="" patch_size="-1,-1">
         <customproperties>
           <Option/>
         </customproperties>
@@ -53,8 +53,8 @@
   </layer-tree-group>
   <snapping-settings enabled="0" minScale="0" unit="1" type="1" scaleDependencyMode="0" maxScale="0" self-snapping="0" tolerance="12" intersection-snapping="0" mode="2">
     <individual-layer-settings>
-      <layer-setting id="omap_c1406115_6ff2_46ca_bbaa_0a630226c967" enabled="0" minScale="0" type="1" units="1" maxScale="0" tolerance="10"/>
       <layer-setting id="omap_95309b5e_86cc_451a_829f_048824f06b23" enabled="0" minScale="0" type="0" units="1" maxScale="0" tolerance="12"/>
+      <layer-setting id="omap_c1406115_6ff2_46ca_bbaa_0a630226c967" enabled="0" minScale="0" type="1" units="1" maxScale="0" tolerance="10"/>
       <layer-setting id="omap_a56cf699_97f8_4e52_b453_bd0aa0e9e0eb" enabled="0" minScale="0" type="1" units="1" maxScale="0" tolerance="10"/>
     </individual-layer-settings>
   </snapping-settings>
@@ -63,10 +63,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>2670961.09133737441152334</xmin>
-      <ymin>1072994.74492031987756491</ymin>
-      <xmax>2734436.23757825512439013</xmax>
-      <ymax>1167973.53146687988191843</ymax>
+      <xmin>2700398.07692357525229454</xmin>
+      <ymin>1115065.39274258748628199</ymin>
+      <xmax>2701070.08717004954814911</xmax>
+      <ymax>1116070.93146974197588861</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -171,7 +171,7 @@
         <ymax>46.6387204813753371</ymax>
       </wgs84extent>
       <id>omap_95309b5e_86cc_451a_829f_048824f06b23</id>
-      <datasource>/home/qgis/projects/data/isom_omap_lines_ti.sqlite|layername=isom_omap_lines_ti</datasource>
+      <datasource>dbname='geodata' host=postgis.intelligeo.net port=5432 authcfg=ta064x7 key='fid' srid=2056 type=MultiLineString checkPrimaryKeyUnicity='0' table="isom_omap"."vm_omap_lines_simple" (geometria)</datasource>
       <shortname>omap_lines</shortname>
       <title>OMAP Line Features</title>
       <abstract>OMAP Line Features.</abstract>
@@ -234,7 +234,7 @@
           </temporal>
         </extent>
       </resourceMetadata>
-      <provider encoding="windows-1252">ogr</provider>
+      <provider encoding="UTF-8">postgres</provider>
       <vectorjoins/>
       <layerDependencies/>
       <dataDependencies/>
@@ -6073,8 +6073,8 @@
       <customproperties>
         <Option type="Map">
           <Option name="embeddedWidgets/count" value="0" type="int"/>
-          <Option name="variableNames"/>
-          <Option name="variableValues"/>
+          <Option name="variableNames" type="invalid"/>
+          <Option name="variableValues" type="invalid"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -6178,13 +6178,6 @@
       <legend type="default-vector" showLabelLegend="0"/>
       <referencedLayers/>
       <fieldConfiguration>
-        <field name="ogc_fid" configurationFlags="None">
-          <editWidget type="TextEdit">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
         <field name="fid" configurationFlags="None">
           <editWidget type="TextEdit">
             <config>
@@ -6201,22 +6194,18 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" field="ogc_fid" index="0"/>
-        <alias name="" field="fid" index="1"/>
-        <alias name="" field="code" index="2"/>
+        <alias name="" field="fid" index="0"/>
+        <alias name="" field="code" index="1"/>
       </aliases>
       <defaults>
-        <default expression="" applyOnUpdate="0" field="ogc_fid"/>
         <default expression="" applyOnUpdate="0" field="fid"/>
         <default expression="" applyOnUpdate="0" field="code"/>
       </defaults>
       <constraints>
-        <constraint constraints="3" notnull_strength="1" field="ogc_fid" exp_strength="0" unique_strength="1"/>
         <constraint constraints="3" notnull_strength="1" field="fid" exp_strength="0" unique_strength="1"/>
         <constraint constraints="0" notnull_strength="0" field="code" exp_strength="0" unique_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint desc="" field="ogc_fid" exp=""/>
         <constraint desc="" field="fid" exp=""/>
         <constraint desc="" field="code" exp=""/>
       </constraintExpressions>
@@ -6300,7 +6289,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>46.61023948194814892</ymax>
       </wgs84extent>
       <id>omap_a56cf699_97f8_4e52_b453_bd0aa0e9e0eb</id>
-      <datasource>/home/qgis/projects/data/isom_omap_points_ti.sqlite|layername=isom_omap_points_ti</datasource>
+      <datasource>dbname='geodata' host=postgis.intelligeo.net port=5432 authcfg=ta064x7 key='fid' srid=2056 type=Point checkPrimaryKeyUnicity='0' table="isom_omap"."vm_omap_points_simple" (geometria)</datasource>
       <shortname>omap_points</shortname>
       <title>OMAP Point Features</title>
       <abstract>OMAP Point Features.</abstract>
@@ -6363,7 +6352,7 @@ def my_form_open(dialog, layer, feature):
           </temporal>
         </extent>
       </resourceMetadata>
-      <provider encoding="windows-1252">ogr</provider>
+      <provider encoding="UTF-8">postgres</provider>
       <vectorjoins/>
       <layerDependencies/>
       <dataDependencies/>
@@ -8693,8 +8682,8 @@ def my_form_open(dialog, layer, feature):
       <customproperties>
         <Option type="Map">
           <Option name="embeddedWidgets/count" value="0" type="int"/>
-          <Option name="variableNames"/>
-          <Option name="variableValues"/>
+          <Option name="variableNames" type="invalid"/>
+          <Option name="variableValues" type="invalid"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -8798,13 +8787,6 @@ def my_form_open(dialog, layer, feature):
       <legend type="default-vector" showLabelLegend="0"/>
       <referencedLayers/>
       <fieldConfiguration>
-        <field name="ogc_fid" configurationFlags="None">
-          <editWidget type="TextEdit">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
         <field name="fid" configurationFlags="None">
           <editWidget type="Range">
             <config>
@@ -8821,22 +8803,18 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" field="ogc_fid" index="0"/>
-        <alias name="" field="fid" index="1"/>
-        <alias name="" field="code" index="2"/>
+        <alias name="" field="fid" index="0"/>
+        <alias name="" field="code" index="1"/>
       </aliases>
       <defaults>
-        <default expression="" applyOnUpdate="0" field="ogc_fid"/>
         <default expression="" applyOnUpdate="0" field="fid"/>
         <default expression="" applyOnUpdate="0" field="code"/>
       </defaults>
       <constraints>
-        <constraint constraints="3" notnull_strength="1" field="ogc_fid" exp_strength="0" unique_strength="1"/>
         <constraint constraints="3" notnull_strength="1" field="fid" exp_strength="0" unique_strength="1"/>
         <constraint constraints="0" notnull_strength="0" field="code" exp_strength="0" unique_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint desc="" field="ogc_fid" exp=""/>
         <constraint desc="" field="fid" exp=""/>
         <constraint desc="" field="code" exp=""/>
       </constraintExpressions>
@@ -8914,7 +8892,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>46.63872321010189381</ymax>
       </wgs84extent>
       <id>omap_c1406115_6ff2_46ca_bbaa_0a630226c967</id>
-      <datasource>/home/qgis/projects/data/isom_omap_areas_ti.sqlite|layername=isom_omap_areas_ti</datasource>
+      <datasource>dbname='geodata' host=postgis.intelligeo.net port=5432 authcfg=ta064x7 key='fid' srid=2056 type=MultiPolygon checkPrimaryKeyUnicity='0' table="isom_omap"."vm_omap_areas_simple" (geometria)</datasource>
       <shortname>omap_areas</shortname>
       <title>ISOM OMAP Area Features</title>
       <abstract>ISOM OMAP Area Features.</abstract>
@@ -8977,7 +8955,7 @@ def my_form_open(dialog, layer, feature):
           </temporal>
         </extent>
       </resourceMetadata>
-      <provider encoding="windows-1252">ogr</provider>
+      <provider encoding="UTF-8">postgres</provider>
       <vectorjoins/>
       <layerDependencies/>
       <dataDependencies/>
@@ -14108,8 +14086,8 @@ def my_form_open(dialog, layer, feature):
       <customproperties>
         <Option type="Map">
           <Option name="embeddedWidgets/count" value="0" type="int"/>
-          <Option name="variableNames"/>
-          <Option name="variableValues"/>
+          <Option name="variableNames" type="invalid"/>
+          <Option name="variableValues" type="invalid"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -14219,13 +14197,6 @@ def my_form_open(dialog, layer, feature):
       <legend type="default-vector" showLabelLegend="0"/>
       <referencedLayers/>
       <fieldConfiguration>
-        <field name="ogc_fid" configurationFlags="None">
-          <editWidget type="TextEdit">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
         <field name="fid" configurationFlags="None">
           <editWidget type="TextEdit">
             <config>
@@ -14248,22 +14219,18 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" field="ogc_fid" index="0"/>
-        <alias name="FID" field="fid" index="1"/>
-        <alias name="Code" field="code" index="2"/>
+        <alias name="FID" field="fid" index="0"/>
+        <alias name="Code" field="code" index="1"/>
       </aliases>
       <defaults>
-        <default expression="" applyOnUpdate="0" field="ogc_fid"/>
         <default expression="" applyOnUpdate="0" field="fid"/>
         <default expression="" applyOnUpdate="0" field="code"/>
       </defaults>
       <constraints>
-        <constraint constraints="3" notnull_strength="1" field="ogc_fid" exp_strength="0" unique_strength="1"/>
         <constraint constraints="3" notnull_strength="1" field="fid" exp_strength="0" unique_strength="1"/>
         <constraint constraints="0" notnull_strength="0" field="code" exp_strength="0" unique_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint desc="" field="ogc_fid" exp=""/>
         <constraint desc="" field="fid" exp=""/>
         <constraint desc="" field="code" exp=""/>
       </constraintExpressions>
@@ -16360,7 +16327,7 @@ No warranty, no liability.</abstract>
   <Bookmarks/>
   <ProjectViewSettings rotation="0" UseProjectScales="0">
     <Scales/>
-    <DefaultViewExtent ymin="1072994.74492031987756491" xmax="2772143.22155035007745028" xmin="2633254.10736527945846319" ymax="1167973.53146687988191843">
+    <DefaultViewExtent ymin="1115065.39274258748628199" xmax="2701469.29034000728279352" xmin="2699998.87375361751765013" ymax="1116070.93146974197588861">
       <spatialrefsys nativeFormat="Wkt">
         <wkt>PROJCRS["CH1903+ / LV95",BASEGEOGCRS["CH1903+",DATUM["CH1903+",ELLIPSOID["Bessel 1841",6377397.155,299.1528128,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4150]],CONVERSION["Swiss Oblique Mercator 1995",METHOD["Hotine Oblique Mercator (variant B)",ID["EPSG",9815]],PARAMETER["Latitude of projection centre",46.9524055555556,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8811]],PARAMETER["Longitude of projection centre",7.43958333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8812]],PARAMETER["Azimuth of initial line",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8813]],PARAMETER["Angle from Rectified to Skew Grid",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8814]],PARAMETER["Scale factor on initial line",1,SCALEUNIT["unity",1],ID["EPSG",8815]],PARAMETER["Easting at projection centre",2600000,LENGTHUNIT["metre",1],ID["EPSG",8816]],PARAMETER["Northing at projection centre",1200000,LENGTHUNIT["metre",1],ID["EPSG",8817]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Cadastre, engineering survey, topographic mapping (large and medium scale)."],AREA["Liechtenstein; Switzerland."],BBOX[45.82,5.96,47.81,10.49]],ID["EPSG",2056]]</wkt>
         <proj4>+proj=somerc +lat_0=46.9524055555556 +lon_0=7.43958333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
