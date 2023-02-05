@@ -37,3 +37,5 @@ data/isom_omap_points_ti.qmd
 data/isom_omap_points_ti.sqlite
 omap_pg_attachments.zip
 styles/ISOM_2017_2_areas_styles_multiscale.qml
+data/omap_ti.gpkg
+data/omap_ti.gpkg-journal
