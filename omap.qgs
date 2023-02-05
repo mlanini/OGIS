@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUser="septe" saveDateTime="2023-02-05T16:42:52" version="3.26.3-Buenos Aires" saveUserFull="Michael Lanini" projectname="Orienteering Basemap Ticino">
+<qgis saveUser="septe" saveDateTime="2023-02-05T16:53:57" version="3.26.3-Buenos Aires" saveUserFull="Michael Lanini" projectname="Orienteering Basemap Ticino">
   <homePath path=""/>
   <title>Orienteering Basemap Ticino</title>
   <transaction mode="Disabled"/>
@@ -53,9 +53,9 @@
   </layer-tree-group>
   <snapping-settings self-snapping="0" enabled="0" type="1" scaleDependencyMode="0" mode="2" maxScale="0" tolerance="12" intersection-snapping="0" minScale="0" unit="1">
     <individual-layer-settings>
+      <layer-setting id="mv_omap_areas_2c70e7fe_16dd_40a9_9f6c_7d85fbc15ad0" units="1" enabled="0" type="0" maxScale="0" tolerance="12" minScale="0"/>
       <layer-setting id="mv_omap_points_39c9a00d_d40e_483e_b6c3_5da3f2f75cc5" units="1" enabled="0" type="0" maxScale="0" tolerance="12" minScale="0"/>
       <layer-setting id="mv_omap_lines_008e6980_4345_4b5d_9f33_b7bb95415f04" units="1" enabled="0" type="0" maxScale="0" tolerance="12" minScale="0"/>
-      <layer-setting id="mv_omap_areas_2c70e7fe_16dd_40a9_9f6c_7d85fbc15ad0" units="1" enabled="0" type="0" maxScale="0" tolerance="12" minScale="0"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
@@ -63,10 +63,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>2670961.09133737441152334</xmin>
-      <ymin>1072994.74492031987756491</ymin>
-      <xmax>2734436.23757825512439013</xmax>
-      <ymax>1167973.53146687988191843</ymax>
+      <xmin>2700119.24434937257319689</xmin>
+      <ymin>1114938.41351228603161871</ymin>
+      <xmax>2701691.20379770454019308</xmax>
+      <ymax>1117290.5593480181414634</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -14484,7 +14484,7 @@ ORDER BY fid;</query>
       <value>EPSG:2056</value>
       <value>EPSG:3857</value>
     </WMSCrsList>
-    <WMSDefaultMapUnitsPerMm type="double">7.5</WMSDefaultMapUnitsPerMm>
+    <WMSDefaultMapUnitsPerMm type="double">15</WMSDefaultMapUnitsPerMm>
     <WMSExtent type="QStringList">
       <value>2633250</value>
       <value>1072750</value>
@@ -14531,17 +14531,13 @@ No warranty, no liability.</WMSServiceAbstract>
       <Project type="bool">false</Project>
     </WMTSJpegLayers>
     <WMTSLayers>
-      <Group type="QStringList">
-        <value>OMAP_Ticino</value>
-      </Group>
+      <Group type="QStringList"/>
       <Layer type="QStringList"/>
       <Project type="bool">false</Project>
     </WMTSLayers>
     <WMTSMinScale type="int">3000</WMTSMinScale>
     <WMTSPngLayers>
-      <Group type="QStringList">
-        <value>OMAP_Ticino</value>
-      </Group>
+      <Group type="QStringList"/>
       <Layer type="QStringList"/>
       <Project type="bool">false</Project>
     </WMTSPngLayers>
@@ -16374,7 +16370,7 @@ No warranty, no liability.</abstract>
   <Bookmarks/>
   <ProjectViewSettings rotation="0" UseProjectScales="0">
     <Scales/>
-    <DefaultViewExtent xmax="2772143.22155035007745028" xmin="2633254.10736527945846319" ymin="1072994.74492031987756491" ymax="1167973.53146687988191843">
+    <DefaultViewExtent xmax="2702625.01574195921421051" xmin="2699185.43240511789917946" ymin="1114938.41351228603161871" ymax="1117290.5593480181414634">
       <spatialrefsys nativeFormat="Wkt">
         <wkt>PROJCRS["CH1903+ / LV95",BASEGEOGCRS["CH1903+",DATUM["CH1903+",ELLIPSOID["Bessel 1841",6377397.155,299.1528128,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4150]],CONVERSION["Swiss Oblique Mercator 1995",METHOD["Hotine Oblique Mercator (variant B)",ID["EPSG",9815]],PARAMETER["Latitude of projection centre",46.9524055555556,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8811]],PARAMETER["Longitude of projection centre",7.43958333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8812]],PARAMETER["Azimuth of initial line",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8813]],PARAMETER["Angle from Rectified to Skew Grid",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8814]],PARAMETER["Scale factor on initial line",1,SCALEUNIT["unity",1],ID["EPSG",8815]],PARAMETER["Easting at projection centre",2600000,LENGTHUNIT["metre",1],ID["EPSG",8816]],PARAMETER["Northing at projection centre",1200000,LENGTHUNIT["metre",1],ID["EPSG",8817]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Cadastre, engineering survey, topographic mapping (large and medium scale)."],AREA["Liechtenstein; Switzerland."],BBOX[45.82,5.96,47.81,10.49]],ID["EPSG",2056]]</wkt>
         <proj4>+proj=somerc +lat_0=46.9524055555556 +lon_0=7.43958333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
@@ -16387,6 +16383,19 @@ No warranty, no liability.</abstract>
         <geographicflag>false</geographicflag>
       </spatialrefsys>
     </DefaultViewExtent>
+    <PresetFullExtent xmax="2702625.01569999987259507" xmin="2699185.43239999981597066" ymin="1114938.41350000002421439" ymax="1117290.5593000000808388">
+      <spatialrefsys nativeFormat="Wkt">
+        <wkt>PROJCRS["CH1903+ / LV95",BASEGEOGCRS["CH1903+",DATUM["CH1903+",ELLIPSOID["Bessel 1841",6377397.155,299.1528128,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4150]],CONVERSION["Swiss Oblique Mercator 1995",METHOD["Hotine Oblique Mercator (variant B)",ID["EPSG",9815]],PARAMETER["Latitude of projection centre",46.9524055555556,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8811]],PARAMETER["Longitude of projection centre",7.43958333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8812]],PARAMETER["Azimuth of initial line",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8813]],PARAMETER["Angle from Rectified to Skew Grid",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8814]],PARAMETER["Scale factor on initial line",1,SCALEUNIT["unity",1],ID["EPSG",8815]],PARAMETER["Easting at projection centre",2600000,LENGTHUNIT["metre",1],ID["EPSG",8816]],PARAMETER["Northing at projection centre",1200000,LENGTHUNIT["metre",1],ID["EPSG",8817]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Cadastre, engineering survey, topographic mapping (large and medium scale)."],AREA["Liechtenstein; Switzerland."],BBOX[45.82,5.96,47.81,10.49]],ID["EPSG",2056]]</wkt>
+        <proj4>+proj=somerc +lat_0=46.9524055555556 +lon_0=7.43958333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>47</srsid>
+        <srid>2056</srid>
+        <authid>EPSG:2056</authid>
+        <description>CH1903+ / LV95</description>
+        <projectionacronym>somerc</projectionacronym>
+        <ellipsoidacronym>EPSG:7004</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </PresetFullExtent>
   </ProjectViewSettings>
   <ProjectStyleSettings DefaultSymbolOpacity="1" RandomizeDefaultSymbolColor="1" projectStyleId="attachment:///XBVNqO_styles.db">
     <databases/>
