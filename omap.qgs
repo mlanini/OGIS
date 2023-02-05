@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUser="septe" saveDateTime="2023-02-05T21:18:14" version="3.26.3-Buenos Aires" saveUserFull="Michael Lanini" projectname="Orienteering Basemap Ticino">
+<qgis saveUser="septe" saveDateTime="2023-02-05T21:43:49" version="3.26.3-Buenos Aires" saveUserFull="Michael Lanini" projectname="Orienteering Basemap Ticino">
   <homePath path=""/>
   <title>Orienteering Basemap Ticino</title>
   <transaction mode="Disabled"/>
@@ -29,17 +29,17 @@
           <Option value="Orienteering Basemap Ticino" type="QString" name="wmsTitle"/>
         </Option>
       </customproperties>
-      <layer-tree-layer id="mv_omap_points_39c9a00d_d40e_483e_b6c3_5da3f2f75cc5" checked="Qt::Checked" patch_size="-1,-1" legend_split_behavior="0" providerKey="ogr" legend_exp="" name="omap_points" source="./data/omap_ti.gpkg|layername=omap_ti_points" expanded="0">
+      <layer-tree-layer id="mv_omap_points_39c9a00d_d40e_483e_b6c3_5da3f2f75cc5" checked="Qt::Checked" patch_size="-1,-1" legend_split_behavior="0" providerKey="ogr" legend_exp="" name="omap_points" source="/home/qgis/projects/data/omap_ti.gpkg|layername=omap_ti_points" expanded="0">
         <customproperties>
           <Option/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer id="mv_omap_lines_008e6980_4345_4b5d_9f33_b7bb95415f04" checked="Qt::Checked" patch_size="-1,-1" legend_split_behavior="0" providerKey="ogr" legend_exp="" name="omap_lines" source="./data/omap_ti.gpkg|layername=omap_ti_lines" expanded="0">
+      <layer-tree-layer id="mv_omap_lines_008e6980_4345_4b5d_9f33_b7bb95415f04" checked="Qt::Checked" patch_size="-1,-1" legend_split_behavior="0" providerKey="ogr" legend_exp="" name="omap_lines" source="/home/qgis/projects/data/omap_ti.gpkg|layername=omap_ti_lines" expanded="0">
         <customproperties>
           <Option/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer id="mv_omap_areas_2c70e7fe_16dd_40a9_9f6c_7d85fbc15ad0" checked="Qt::Checked" patch_size="-1,-1" legend_split_behavior="0" providerKey="ogr" legend_exp="" name="omap_areas" source="./data/omap_ti.gpkg|layername=omap_ti_areas" expanded="0">
+      <layer-tree-layer id="mv_omap_areas_2c70e7fe_16dd_40a9_9f6c_7d85fbc15ad0" checked="Qt::Checked" patch_size="-1,-1" legend_split_behavior="0" providerKey="ogr" legend_exp="" name="omap_areas" source="/home/qgis/projects/data/omap_ti.gpkg|layername=omap_ti_areas" expanded="0">
         <customproperties>
           <Option/>
         </customproperties>
@@ -54,8 +54,8 @@
   <snapping-settings self-snapping="0" enabled="0" type="1" scaleDependencyMode="0" mode="2" maxScale="0" tolerance="12" intersection-snapping="0" minScale="0" unit="1">
     <individual-layer-settings>
       <layer-setting id="mv_omap_areas_2c70e7fe_16dd_40a9_9f6c_7d85fbc15ad0" units="1" enabled="0" type="0" maxScale="0" tolerance="12" minScale="0"/>
-      <layer-setting id="mv_omap_points_39c9a00d_d40e_483e_b6c3_5da3f2f75cc5" units="1" enabled="0" type="0" maxScale="0" tolerance="12" minScale="0"/>
       <layer-setting id="mv_omap_lines_008e6980_4345_4b5d_9f33_b7bb95415f04" units="1" enabled="0" type="0" maxScale="0" tolerance="12" minScale="0"/>
+      <layer-setting id="mv_omap_points_39c9a00d_d40e_483e_b6c3_5da3f2f75cc5" units="1" enabled="0" type="0" maxScale="0" tolerance="12" minScale="0"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
@@ -196,7 +196,7 @@
         <ymax>46.63872431727810408</ymax>
       </wgs84extent>
       <id>mv_omap_areas_2c70e7fe_16dd_40a9_9f6c_7d85fbc15ad0</id>
-      <datasource>./data/omap_ti.gpkg|layername=omap_ti_areas</datasource>
+      <datasource>/home/qgis/projects/data/omap_ti.gpkg|layername=omap_ti_areas</datasource>
       <shortname>omap_ti_areas</shortname>
       <title>OMAP Ticino Area Features</title>
       <abstract>OMAP Ticino Area Features.</abstract>
@@ -5390,8 +5390,8 @@
       <customproperties>
         <Option type="Map">
           <Option value="0" type="int" name="embeddedWidgets/count"/>
-          <Option name="variableNames"/>
-          <Option name="variableValues"/>
+          <Option type="invalid" name="variableNames"/>
+          <Option type="invalid" name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -5626,7 +5626,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>46.63872086283195273</ymax>
       </wgs84extent>
       <id>mv_omap_lines_008e6980_4345_4b5d_9f33_b7bb95415f04</id>
-      <datasource>./data/omap_ti.gpkg|layername=omap_ti_lines</datasource>
+      <datasource>/home/qgis/projects/data/omap_ti.gpkg|layername=omap_ti_lines</datasource>
       <shortname>omap_ti_lines</shortname>
       <title>OMAP Ticino Line Features</title>
       <abstract>OMAP Ticino Line Features.</abstract>
@@ -11528,8 +11528,8 @@ def my_form_open(dialog, layer, feature):
       <customproperties>
         <Option type="Map">
           <Option value="0" type="int" name="embeddedWidgets/count"/>
-          <Option name="variableNames"/>
-          <Option name="variableValues"/>
+          <Option type="invalid" name="variableNames"/>
+          <Option type="invalid" name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -11755,7 +11755,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>46.61023987412117009</ymax>
       </wgs84extent>
       <id>mv_omap_points_39c9a00d_d40e_483e_b6c3_5da3f2f75cc5</id>
-      <datasource>./data/omap_ti.gpkg|layername=omap_ti_points</datasource>
+      <datasource>/home/qgis/projects/data/omap_ti.gpkg|layername=omap_ti_points</datasource>
       <shortname>omap_ti_points</shortname>
       <title>OMAP Ticino Point Features</title>
       <abstract>OMAP Ticino Point Features.</abstract>
@@ -14148,8 +14148,8 @@ def my_form_open(dialog, layer, feature):
       <customproperties>
         <Option type="Map">
           <Option value="0" type="int" name="embeddedWidgets/count"/>
-          <Option name="variableNames"/>
-          <Option name="variableValues"/>
+          <Option type="invalid" name="variableNames"/>
+          <Option type="invalid" name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -14531,14 +14531,26 @@ No warranty, no liability.</WMSServiceAbstract>
       <Project type="bool">false</Project>
     </WMTSJpegLayers>
     <WMTSLayers>
-      <Group type="QStringList"/>
-      <Layer type="QStringList"/>
+      <Group type="QStringList">
+        <value>OMAP_Ticino</value>
+      </Group>
+      <Layer type="QStringList">
+        <value>mv_omap_points_39c9a00d_d40e_483e_b6c3_5da3f2f75cc5</value>
+        <value>mv_omap_lines_008e6980_4345_4b5d_9f33_b7bb95415f04</value>
+        <value>mv_omap_areas_2c70e7fe_16dd_40a9_9f6c_7d85fbc15ad0</value>
+      </Layer>
       <Project type="bool">false</Project>
     </WMTSLayers>
     <WMTSMinScale type="int">3000</WMTSMinScale>
     <WMTSPngLayers>
-      <Group type="QStringList"/>
-      <Layer type="QStringList"/>
+      <Group type="QStringList">
+        <value>OMAP_Ticino</value>
+      </Group>
+      <Layer type="QStringList">
+        <value>mv_omap_points_39c9a00d_d40e_483e_b6c3_5da3f2f75cc5</value>
+        <value>mv_omap_lines_008e6980_4345_4b5d_9f33_b7bb95415f04</value>
+        <value>mv_omap_areas_2c70e7fe_16dd_40a9_9f6c_7d85fbc15ad0</value>
+      </Layer>
       <Project type="bool">false</Project>
     </WMTSPngLayers>
     <WMTSUrl type="QString"></WMTSUrl>
