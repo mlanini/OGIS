@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="Orienteering Basemap Ticino" saveUser="septe" version="3.26.3-Buenos Aires" saveUserFull="Michael Lanini" saveDateTime="2023-02-05T10:19:46">
+<qgis projectname="Orienteering Basemap Ticino" saveUser="septe" version="3.26.3-Buenos Aires" saveUserFull="Michael Lanini" saveDateTime="2023-02-05T10:46:46">
   <homePath path=""/>
   <title>Orienteering Basemap Ticino</title>
   <transaction mode="Disabled"/>
@@ -53,9 +53,9 @@
   </layer-tree-group>
   <snapping-settings intersection-snapping="0" self-snapping="0" type="1" unit="1" tolerance="12" scaleDependencyMode="0" minScale="0" mode="2" maxScale="0" enabled="0">
     <individual-layer-settings>
-      <layer-setting id="omap_95309b5e_86cc_451a_829f_048824f06b23" type="0" tolerance="12" minScale="0" units="1" maxScale="0" enabled="0"/>
       <layer-setting id="omap_c1406115_6ff2_46ca_bbaa_0a630226c967" type="1" tolerance="10" minScale="0" units="1" maxScale="0" enabled="0"/>
       <layer-setting id="omap_a56cf699_97f8_4e52_b453_bd0aa0e9e0eb" type="1" tolerance="10" minScale="0" units="1" maxScale="0" enabled="0"/>
+      <layer-setting id="omap_95309b5e_86cc_451a_829f_048824f06b23" type="0" tolerance="12" minScale="0" units="1" maxScale="0" enabled="0"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
@@ -6098,8 +6098,8 @@
       <customproperties>
         <Option type="Map">
           <Option type="int" value="0" name="embeddedWidgets/count"/>
-          <Option type="invalid" name="variableNames"/>
-          <Option type="invalid" name="variableValues"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -8917,8 +8917,8 @@ def my_form_open(dialog, layer, feature):
       <id>omap_c1406115_6ff2_46ca_bbaa_0a630226c967</id>
       <datasource>dbname='geodata' host=postgis.intelligeo.net port=5432 user='postgres' password='Khfo37bw' key='ogc_fid' srid=2056 type=MultiPolygon checkPrimaryKeyUnicity='0' table="omap"."mv_omap_areas" (geometria)</datasource>
       <shortname>omap_areas</shortname>
-      <title>ISOM OMAP Area Features</title>
-      <abstract>ISOM OMAP Area Features.</abstract>
+      <title>OMAP Area Features</title>
+      <abstract>OMAP Area Features.</abstract>
       <keywordList>
         <value></value>
       </keywordList>
@@ -14109,8 +14109,8 @@ def my_form_open(dialog, layer, feature):
       <customproperties>
         <Option type="Map">
           <Option type="int" value="0" name="embeddedWidgets/count"/>
-          <Option type="invalid" name="variableNames"/>
-          <Option type="invalid" name="variableValues"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
