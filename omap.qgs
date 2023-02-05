@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUser="septe" saveDateTime="2023-02-05T16:53:57" version="3.26.3-Buenos Aires" saveUserFull="Michael Lanini" projectname="Orienteering Basemap Ticino">
+<qgis saveUser="septe" saveDateTime="2023-02-05T21:18:14" version="3.26.3-Buenos Aires" saveUserFull="Michael Lanini" projectname="Orienteering Basemap Ticino">
   <homePath path=""/>
   <title>Orienteering Basemap Ticino</title>
   <transaction mode="Disabled"/>
@@ -275,7 +275,7 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal accumulate="0" enabled="0" durationUnit="min" fixedDuration="0" startField="" endExpression="" limitMode="0" mode="0" durationField="ogc_fid" endField="" startExpression="">
+      <temporal accumulate="0" enabled="0" durationUnit="min" fixedDuration="0" startField="" endExpression="" limitMode="0" mode="0" durationField="fid" endField="" startExpression="">
         <fixedRange>
           <start></start>
           <end></end>
@@ -5390,8 +5390,8 @@
       <customproperties>
         <Option type="Map">
           <Option value="0" type="int" name="embeddedWidgets/count"/>
-          <Option type="invalid" name="variableNames"/>
-          <Option type="invalid" name="variableValues"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -5508,7 +5508,7 @@
             </config>
           </editWidget>
         </field>
-        <field configurationFlags="NotSearchable" name="ogc_fid">
+        <field configurationFlags="NotSearchable|HideFromWms|HideFromWfs" name="ogc_fid">
           <editWidget type="TextEdit">
             <config>
               <Option/>
@@ -5612,7 +5612,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>"code"</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer simplifyMaxScale="1" type="vector" labelsEnabled="0" refreshOnNotifyEnabled="0" wkbType="LineString" maxScale="0" hasScaleBasedVisibilityFlag="1" styleCategories="AllStyleCategories" geometry="Line" simplifyAlgorithm="0" refreshOnNotifyMessage="" minScale="100000" symbologyReferenceScale="-1" simplifyDrawingTol="1" simplifyDrawingHints="0" simplifyLocal="1" readOnly="0" autoRefreshEnabled="0" legendPlaceholderImage="" autoRefreshTime="0">
+    <maplayer simplifyMaxScale="1" type="vector" labelsEnabled="0" refreshOnNotifyEnabled="0" wkbType="MultiLineString" maxScale="0" hasScaleBasedVisibilityFlag="1" styleCategories="AllStyleCategories" geometry="Line" simplifyAlgorithm="0" refreshOnNotifyMessage="" minScale="100000" symbologyReferenceScale="-1" simplifyDrawingTol="1" simplifyDrawingHints="0" simplifyLocal="1" readOnly="0" autoRefreshEnabled="0" legendPlaceholderImage="" autoRefreshTime="0">
       <extent>
         <xmin>2672472.75</xmin>
         <ymin>1075257.75</ymin>
@@ -5705,7 +5705,7 @@ def my_form_open(dialog, layer, feature):
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal accumulate="0" enabled="0" durationUnit="min" fixedDuration="0" startField="" endExpression="" limitMode="0" mode="0" durationField="ogc_fid" endField="" startExpression="">
+      <temporal accumulate="0" enabled="0" durationUnit="min" fixedDuration="0" startField="" endExpression="" limitMode="0" mode="0" durationField="fid" endField="" startExpression="">
         <fixedRange>
           <start></start>
           <end></end>
@@ -11528,8 +11528,8 @@ def my_form_open(dialog, layer, feature):
       <customproperties>
         <Option type="Map">
           <Option value="0" type="int" name="embeddedWidgets/count"/>
-          <Option type="invalid" name="variableNames"/>
-          <Option type="invalid" name="variableValues"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -11640,7 +11640,7 @@ def my_form_open(dialog, layer, feature):
             </config>
           </editWidget>
         </field>
-        <field configurationFlags="NotSearchable" name="ogc_fid">
+        <field configurationFlags="NotSearchable|HideFromWms|HideFromWfs" name="ogc_fid">
           <editWidget type="TextEdit">
             <config>
               <Option/>
@@ -11834,7 +11834,7 @@ def my_form_open(dialog, layer, feature):
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal accumulate="0" enabled="0" durationUnit="min" fixedDuration="0" startField="" endExpression="" limitMode="0" mode="0" durationField="ogc_fid" endField="" startExpression="">
+      <temporal accumulate="0" enabled="0" durationUnit="min" fixedDuration="0" startField="" endExpression="" limitMode="0" mode="0" durationField="fid" endField="" startExpression="">
         <fixedRange>
           <start></start>
           <end></end>
@@ -14148,8 +14148,8 @@ def my_form_open(dialog, layer, feature):
       <customproperties>
         <Option type="Map">
           <Option value="0" type="int" name="embeddedWidgets/count"/>
-          <Option type="invalid" name="variableNames"/>
-          <Option type="invalid" name="variableValues"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -14260,7 +14260,7 @@ def my_form_open(dialog, layer, feature):
             </config>
           </editWidget>
         </field>
-        <field configurationFlags="NotSearchable" name="ogc_fid">
+        <field configurationFlags="NotSearchable|HideFromWms|HideFromWfs" name="ogc_fid">
           <editWidget type="TextEdit">
             <config>
               <Option/>
