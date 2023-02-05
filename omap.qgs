@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUser="septe" saveDateTime="2023-02-05T16:25:27" version="3.26.3-Buenos Aires" saveUserFull="Michael Lanini" projectname="Orienteering Basemap Ticino">
+<qgis saveUser="septe" saveDateTime="2023-02-05T16:40:55" version="3.26.3-Buenos Aires" saveUserFull="Michael Lanini" projectname="Orienteering Basemap Ticino">
   <homePath path=""/>
   <title>Orienteering Basemap Ticino</title>
   <transaction mode="Disabled"/>
@@ -29,17 +29,17 @@
           <Option value="Orienteering Basemap Ticino" type="QString" name="wmsTitle"/>
         </Option>
       </customproperties>
-      <layer-tree-layer id="mv_omap_points_39c9a00d_d40e_483e_b6c3_5da3f2f75cc5" checked="Qt::Checked" patch_size="-1,-1" legend_split_behavior="0" providerKey="ogr" legend_exp="" name="omap_points" source="/home/qgis/projects/data/omap_ti.gpkg|layername=omap_ti_points" expanded="0">
+      <layer-tree-layer id="mv_omap_points_39c9a00d_d40e_483e_b6c3_5da3f2f75cc5" checked="Qt::Checked" patch_size="-1,-1" legend_split_behavior="0" providerKey="ogr" legend_exp="" name="omap_points" source="./data/omap_ti.gpkg|layername=omap_ti_points" expanded="0">
         <customproperties>
           <Option/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer id="mv_omap_lines_008e6980_4345_4b5d_9f33_b7bb95415f04" checked="Qt::Checked" patch_size="-1,-1" legend_split_behavior="0" providerKey="ogr" legend_exp="" name="omap_lines" source="/home/qgis/projects/data/omap_ti.gpkg|layername=omap_ti_lines" expanded="0">
+      <layer-tree-layer id="mv_omap_lines_008e6980_4345_4b5d_9f33_b7bb95415f04" checked="Qt::Checked" patch_size="-1,-1" legend_split_behavior="0" providerKey="ogr" legend_exp="" name="omap_lines" source="./data/omap_ti.gpkg|layername=omap_ti_lines" expanded="0">
         <customproperties>
           <Option/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer id="mv_omap_areas_2c70e7fe_16dd_40a9_9f6c_7d85fbc15ad0" checked="Qt::Checked" patch_size="-1,-1" legend_split_behavior="0" providerKey="ogr" legend_exp="" name="omap_areas" source="/home/qgis/projects/data/omap_ti.gpkg|layername=omap_ti_areas" expanded="0">
+      <layer-tree-layer id="mv_omap_areas_2c70e7fe_16dd_40a9_9f6c_7d85fbc15ad0" checked="Qt::Checked" patch_size="-1,-1" legend_split_behavior="0" providerKey="ogr" legend_exp="" name="omap_areas" source="./data/omap_ti.gpkg|layername=omap_ti_areas" expanded="0">
         <customproperties>
           <Option/>
         </customproperties>
@@ -54,8 +54,8 @@
   <snapping-settings self-snapping="0" enabled="0" type="1" scaleDependencyMode="0" mode="2" maxScale="0" tolerance="12" intersection-snapping="0" minScale="0" unit="1">
     <individual-layer-settings>
       <layer-setting id="mv_omap_points_39c9a00d_d40e_483e_b6c3_5da3f2f75cc5" units="1" enabled="0" type="0" maxScale="0" tolerance="12" minScale="0"/>
-      <layer-setting id="mv_omap_lines_008e6980_4345_4b5d_9f33_b7bb95415f04" units="1" enabled="0" type="0" maxScale="0" tolerance="12" minScale="0"/>
       <layer-setting id="mv_omap_areas_2c70e7fe_16dd_40a9_9f6c_7d85fbc15ad0" units="1" enabled="0" type="0" maxScale="0" tolerance="12" minScale="0"/>
+      <layer-setting id="mv_omap_lines_008e6980_4345_4b5d_9f33_b7bb95415f04" units="1" enabled="0" type="0" maxScale="0" tolerance="12" minScale="0"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
@@ -184,19 +184,19 @@
   <projectlayers>
     <maplayer simplifyMaxScale="1" type="vector" labelsEnabled="0" refreshOnNotifyEnabled="0" wkbType="Polygon" maxScale="0" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" geometry="Polygon" simplifyAlgorithm="0" refreshOnNotifyMessage="" minScale="0" symbologyReferenceScale="-1" simplifyDrawingTol="1" simplifyDrawingHints="0" simplifyLocal="1" readOnly="0" autoRefreshEnabled="0" legendPlaceholderImage="" autoRefreshTime="0">
       <extent>
-        <xmin>2672472.4043431100435555</xmin>
-        <ymin>1075256.14459999999962747</ymin>
-        <xmax>2732924.92457251995801926</xmax>
-        <ymax>1165712.13178719999268651</ymax>
+        <xmin>2672472</xmin>
+        <ymin>1075256.125</ymin>
+        <xmax>2732925</xmax>
+        <ymax>1165712.25</ymax>
       </extent>
       <wgs84extent>
-        <xmin>8.37112335618340175</xmin>
-        <ymin>45.81592293646171044</ymin>
-        <xmax>9.17449950310483864</xmax>
-        <ymax>46.63872321010189381</ymax>
+        <xmin>8.37111815116068847</xmin>
+        <ymin>45.8159227454050324</ymin>
+        <xmax>9.17450052194174503</xmax>
+        <ymax>46.63872431727810408</ymax>
       </wgs84extent>
       <id>mv_omap_areas_2c70e7fe_16dd_40a9_9f6c_7d85fbc15ad0</id>
-      <datasource>/home/qgis/projects/data/omap_ti.gpkg|layername=omap_ti_areas</datasource>
+      <datasource>./data/omap_ti.gpkg|layername=omap_ti_areas</datasource>
       <shortname>omap_ti_areas</shortname>
       <title>OMAP Ticino Area Features</title>
       <abstract>OMAP Ticino Area Features.</abstract>
@@ -511,7 +511,7 @@
           <rule symbol="36" label="501NE paved area no edge" key="{5c1d9c58-455b-42ce-bce9-b6d353b8ff21}" filter="&quot;code&quot; = '501NE'"/>
           <rule symbol="37" label="520 area that should not be entered" key="{740e4346-9acd-4399-9cd8-19f20eaab01b}" scalemaxdenom="5001" filter="&quot;code&quot; = '520'"/>
           <rule symbol="38" label="521 building > 1:7500" key="{aab49dd3-b4ba-4a32-bd8e-c27218943ab9}" scalemaxdenom="5001" filter="&quot;code&quot; = '521'"/>
-          <rule symbol="39" label="521 building &lt; 1:7500" key="{fd0ab483-1171-4380-a6dd-4f69a5a8df1a}" scalemindenom="5001" scalemaxdenom="1000000" filter="&quot;code&quot; = '521'"/>
+          <rule symbol="39" label="521 building &lt; 1:7500" key="{fd0ab483-1171-4380-a6dd-4f69a5a8df1a}" scalemindenom="5001" scalemaxdenom="100000" filter="&quot;code&quot; = '521'"/>
           <rule symbol="40" label="522 canopy" key="{a5e34f94-eeee-4bf1-91c7-6ec423edabad}" scalemaxdenom="5001" filter="&quot;code&quot; = '522'"/>
           <rule symbol="41" label="NO ENTRY" key="{e9a73169-152e-46f9-911b-45bdb649580e}" filter="&quot;code&quot; = 'NE'"/>
         </rules>
@@ -5614,19 +5614,19 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyMaxScale="1" type="vector" labelsEnabled="0" refreshOnNotifyEnabled="0" wkbType="LineString" maxScale="0" hasScaleBasedVisibilityFlag="1" styleCategories="AllStyleCategories" geometry="Line" simplifyAlgorithm="0" refreshOnNotifyMessage="" minScale="100000" symbologyReferenceScale="-1" simplifyDrawingTol="1" simplifyDrawingHints="0" simplifyLocal="1" readOnly="0" autoRefreshEnabled="0" legendPlaceholderImage="" autoRefreshTime="0">
       <extent>
-        <xmin>2672472.81265045003965497</xmin>
-        <ymin>1075257.80454438994638622</ymin>
-        <xmax>2732918.21188369998708367</xmax>
-        <ymax>1165711.83334743999876082</ymax>
+        <xmin>2672472.75</xmin>
+        <ymin>1075257.75</ymin>
+        <xmax>2732918.25</xmax>
+        <ymax>1165711.875</ymax>
       </extent>
       <wgs84extent>
-        <xmin>8.37112886301095926</xmin>
-        <ymin>45.81593918088034911</ymin>
-        <xmax>9.17441178466272333</xmax>
-        <ymax>46.6387204813753371</ymax>
+        <xmin>8.37112804864950988</xmin>
+        <ymin>45.81593868288244664</ymin>
+        <xmax>9.17441229429332772</xmax>
+        <ymax>46.63872086283195273</ymax>
       </wgs84extent>
       <id>mv_omap_lines_008e6980_4345_4b5d_9f33_b7bb95415f04</id>
-      <datasource>/home/qgis/projects/data/omap_ti.gpkg|layername=omap_ti_lines</datasource>
+      <datasource>./data/omap_ti.gpkg|layername=omap_ti_lines</datasource>
       <shortname>omap_ti_lines</shortname>
       <title>OMAP Ticino Line Features</title>
       <abstract>OMAP Ticino Line Features.</abstract>
@@ -11743,19 +11743,19 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyMaxScale="1" type="vector" labelsEnabled="0" refreshOnNotifyEnabled="0" wkbType="Point" maxScale="0" hasScaleBasedVisibilityFlag="1" styleCategories="AllStyleCategories" geometry="Point" simplifyAlgorithm="0" refreshOnNotifyMessage="" minScale="15000" symbologyReferenceScale="-1" simplifyDrawingTol="1" simplifyDrawingHints="0" simplifyLocal="1" readOnly="0" autoRefreshEnabled="0" legendPlaceholderImage="" autoRefreshTime="0">
       <extent>
-        <xmin>2672688.46499999985098839</xmin>
-        <ymin>1075268.23300000000745058</ymin>
+        <xmin>2672688.25</xmin>
+        <ymin>1075268.125</ymin>
         <xmax>2732888.25</xmax>
-        <ymax>1162548.08400000003166497</ymax>
+        <ymax>1162548.125</ymax>
       </extent>
       <wgs84extent>
-        <xmin>8.37390491030245521</xmin>
-        <ymin>45.81603883983458303</ymin>
-        <xmax>9.17310733580322335</xmax>
-        <ymax>46.61023948194814892</ymax>
+        <xmin>8.37390212768148956</xmin>
+        <ymin>45.81603786857900928</ymin>
+        <xmax>9.17310734763283797</xmax>
+        <ymax>46.61023987412117009</ymax>
       </wgs84extent>
       <id>mv_omap_points_39c9a00d_d40e_483e_b6c3_5da3f2f75cc5</id>
-      <datasource>/home/qgis/projects/data/omap_ti.gpkg|layername=omap_ti_points</datasource>
+      <datasource>./data/omap_ti.gpkg|layername=omap_ti_points</datasource>
       <shortname>omap_ti_points</shortname>
       <title>OMAP Ticino Point Features</title>
       <abstract>OMAP Ticino Point Features.</abstract>
@@ -14148,8 +14148,8 @@ def my_form_open(dialog, layer, feature):
       <customproperties>
         <Option type="Map">
           <Option value="0" type="int" name="embeddedWidgets/count"/>
-          <Option type="invalid" name="variableNames"/>
-          <Option type="invalid" name="variableValues"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -14254,7 +14254,7 @@ def my_form_open(dialog, layer, feature):
       <referencedLayers/>
       <fieldConfiguration>
         <field configurationFlags="None" name="fid">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
@@ -14303,6 +14303,7 @@ def my_form_open(dialog, layer, feature):
         <columns>
           <column type="field" hidden="0" name="code" width="-1"/>
           <column type="field" hidden="0" name="ogc_fid" width="-1"/>
+          <column type="field" hidden="0" name="fid" width="-1"/>
           <column type="actions" hidden="1" width="-1"/>
         </columns>
       </attributetableconfig>
