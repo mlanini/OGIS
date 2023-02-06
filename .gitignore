@@ -39,3 +39,9 @@ omap_pg_attachments.zip
 styles/ISOM_2017_2_areas_styles_multiscale.qml
 data/omap_ti.gpkg
 data/omap_ti.gpkg-journal
+qfield.zip
+ogis2qfield.qgz
+qfield/basemap.gpkg
+qfield/ogis2qfield_qfield.qgs
+qfield/ogis2qfield_qfield.qgs~
+qfield/ogis2qfield_qfield_attachments.zip
