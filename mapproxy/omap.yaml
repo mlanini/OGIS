@@ -34,7 +34,7 @@ services:
 #          country: Switzerland
 #          phone: +41 79 262 58 89
           email: basemap@intelligeo.ch
-        access_constraints: 'Ask basemap@intelligeo.ch'
+        access_constraints: 'Ask omap@intelligeo.ch'
         fees: 'None'
 
     wms:
@@ -52,8 +52,8 @@ services:
 #          state: Ticino
 #          country: Switzerland
 #          phone: +41 (0)79 262 58 89
-          email: basemap@intelligeo.ch
-        access_constraints: 'Ask basemap@intelligeo.ch'
+           email: omap@intelligeo.ch
+        access_constraints: 'Ask omap@intelligeo.ch'
         fees: 'None'
 
 layers:
