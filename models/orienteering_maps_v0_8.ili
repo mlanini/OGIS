@@ -1,0 +1,65 @@
+INTERLIS 2.3;
+
+/** Modello di geodati per mappe di corsa d'orientamento
+ *  in base alle prescrizioni ISOM 2017 Edizione 2
+ *  Documenti di riferimento: https://orienteering.sport/iof/mapping/
+ */
+ 
+!! Change log
+!! version     | date       | user        | change type      | comments
+!! ------------------------------------------------------------------------------------
+!! 0.8-ALPHA   | 2023-03-04 | mlanini     | draft            | first draft
+!!             | 2023-03-08 | mlanini     | update           | one CLASS per geom type
+!!-------------------------------------------------------------------------------------
+!!@ technicalContact=mailto:ask@intelligeo.ch
+!!@ furtherInformation=https://www.intelligeo.ch
+
+MODEL orienteering_maps_v0_8 (en) AT "http://models.intelligeo.ch/OMAP" VERSION "2023-03-08" =
+  
+  IMPORTS CatalogueObjects_V1;
+  IMPORTS LocalisationCH_V1;
+  IMPORTS GeometryCHLV95_V1;
+
+  TOPIC catalogue_symbols =
+
+    CLASS symbol
+    EXTENDS CatalogueObjects_V1.Catalogues.Item =
+      code           : MANDATORY TEXT*5;
+      description    : MANDATORY LocalisationCH_V1.MultilingualText;    
+      UNIQUE code;
+    END symbol;
+
+    STRUCTURE symbol_ref
+    EXTENDS CatalogueObjects_V1.Catalogues.CatalogueReference =
+      Reference (EXTENDED) : MANDATORY REFERENCE TO (EXTERNAL) symbol;
+    END symbol_ref;
+
+  END catalogue_symbols;
+  
+  TOPIC omaps =
+    DEPENDS ON orienteering_maps_v0_8.catalogue_symbols;
+
+    CLASS omap_element (ABSTRACT) =
+      uuid           : MANDATORY TEXT*40;
+      symbol_ref     : MANDATORY orienteering_maps_v0_8.catalogue_symbols.symbol_ref;
+      orientation    :           0 .. 359;
+      remarks        :           TEXT*255;
+
+      UNIQUE uuid;
+    END omap_element;
+
+    CLASS omap_point_feature EXTENDS omap_element =
+      geometry       : MANDATORY GeometryCHLV95_V1.Coord2;
+    END omap_point_feature;
+
+    CLASS omap_line_feature EXTENDS omap_element =
+      geometry       : MANDATORY GeometryCHLV95_V1.Line;
+    END omap_line_feature;
+
+    CLASS omap_area_feature EXTENDS omap_element =
+      geometry       : MANDATORY GeometryCHLV95_V1.Surface;
+    END omap_area_feature;
+
+  END omaps;
+  
+END orienteering_maps_v0_8.
