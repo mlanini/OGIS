@@ -1,0 +1,373 @@
+id;code;description_lang;description_text;description_shorttext;geom_type
+1011;101;en;101 Contour;Contour;Line
+1012;101;it;101 Curva di livello;Curva di livello;Line
+1013;101;fr;101 text fr;text fr;Line
+1014;101;de;101 text de;text de;Line
+1021;102;en;102 Index contour;Index contour;Line
+1022;102;it;102 Curva direttrice;Curva direttrice;Line
+1023;102;fr;102 text fr;text fr;Line
+1024;102;de;102 text de;text de;Line
+1031;103;en;103 Form line;Form line;Line
+1032;103;it;103 Curva ausiliaria;Curva ausiliaria;Line
+1033;103;fr;103 text fr;text fr;Line
+1034;103;de;103 text de;text de;Line
+1041;104;en;104 Earth bank;Earth bank;Line
+1042;104;it;104 Scarpata;Scarpata;Line
+1043;104;fr;104 text fr;text fr;Line
+1044;104;de;104 text de;text de;Line
+1051;105;en;105 Earth wall;Earth wall;Line
+1052;105;it;105 Muro di terra (terrapieno);Muro di terra (terrapieno);Line
+1053;105;fr;105 text fr;text fr;Line
+1054;105;de;105 text de;text de;Line
+1061;106;en;106 Ruined earth wall;Ruined earth wall;Line
+1062;106;it;106 Muro di terra (terrapieno) diroccato;Muro di terra (terrapieno) diroccato;Line
+1063;106;fr;106 text fr;text fr;Line
+1064;106;de;106 text de;text de;Line
+1071;107;en;107 Erosion gully;Erosion gully;Line
+1072;107;it;107 Fossa d'erosione;Fossa d'erosione;Line
+1073;107;fr;107 text fr;text fr;Line
+1074;107;de;107 text de;text de;Line
+1081;108;en;108 Small erosion gully;Small erosion gully;Line
+1082;108;it;108 Canaletto asciutto;Canaletto asciutto;Line
+1083;108;fr;108 text fr;text fr;Line
+1084;108;de;108 text de;text de;Line
+1091;109;en;109 Small knoll;Small knoll;Point
+1092;109;it;109 Cocuzzolo;Cocuzzolo;Point
+1093;109;fr;109 text fr;text fr;Point
+1094;109;de;109 text de;text de;Point
+1101;110;en;110 Small elongated knoll;Small elongated knoll;Point
+1102;110;it;110 Cocuzzolo allungato;Cocuzzolo allungato;Point
+1103;110;fr;110 text fr;text fr;Point
+1104;110;de;110 text de;text de;Point
+1111;111;en;111 Small depression;Small depression;Point
+1112;111;it;111 Piccola depressione;Piccola depressione;Point
+1113;111;fr;111 text fr;text fr;Point
+1114;111;de;111 text de;text de;Point
+1121;112;en;112 Pit;Pit;Point
+1122;112;it;112 Buca;Buca;Point
+1123;112;fr;112 text fr;text fr;Point
+1124;112;de;112 text de;text de;Point
+1131;113;en;113 Broken ground;Broken ground;Surface
+1132;113;it;113 Terreno sconnesso;Terreno sconnesso;Surface
+1133;113;fr;113 text fr;text fr;Surface
+1134;113;de;113 text de;text de;Surface
+1141;114;en;114 Very broken ground;Very broken ground;Surface
+1142;114;it;114 Terreno molto sconnesso;Terreno molto sconnesso;Surface
+1143;114;fr;114 text fr;text fr;Surface
+1144;114;de;114 text de;text de;Surface
+1151;115;en;115 Prominent landform feature;Prominent landform feature;Point
+1152;115;it;115 Evidente oggetto particolare nel terreno;Evidente oggetto particolare nel terreno;Point
+1153;115;fr;115 text fr;text fr;Point
+1154;115;de;115 text de;text de;Point
+2011;201;en;201 Impassable cliff;Impassable cliff;Line
+2012;201;it;201 Parete non attraversabile;Parete non attraversabile;Line
+2013;201;fr;201 text fr;text fr;Line
+2014;201;de;201 text de;text de;Line
+2021;202;en;202 Cliff;Cliff;Line
+2022;202;it;202 Parete di roccia;Parete di roccia;Line
+2023;202;fr;202 text fr;text fr;Line
+2024;202;de;202 text de;text de;Line
+2031;203;en;203 Rocky pit or cave;Rocky pit or cave;Point
+2032;203;it;203 Buca rocciosa o cavernosa;Buca rocciosa o cavernosa;Point
+2033;203;fr;203 text fr;text fr;Point
+2034;203;de;203 text de;text de;Point
+2041;204;en;204 Boulder;Boulder;Point
+2042;204;it;204 Masso;Masso;Point
+2043;204;fr;204 text fr;text fr;Point
+2044;204;de;204 text de;text de;Point
+2051;205;en;205 Large boulder;Large boulder;Point
+2052;205;it;205 Grande masso;Grande masso;Point
+2053;205;fr;205 text fr;text fr;Point
+2054;205;de;205 text de;text de;Point
+2061;206;en;206 Gigantic boulder or rock pillar;Gigantic boulder or rock pillar;Surface
+2062;206;it;206 Masso enorme o pilastro di roccia;Masso enorme o pilastro di roccia;Surface
+2063;206;fr;206 text fr;text fr;Surface
+2064;206;de;206 text de;text de;Surface
+2071;207;en;207 Boulder cluster;Boulder cluster;Point
+2072;207;it;207 Cumulo di massi;Cumulo di massi;Point
+2073;207;fr;207 text fr;text fr;Point
+2074;207;de;207 text de;text de;Point
+2081;208;en;208 Boulder field;Boulder field;Surface
+2082;208;it;208 Massi sparsi;Massi sparsi;Surface
+2083;208;fr;208 text fr;text fr;Surface
+2084;208;de;208 text de;text de;Surface
+2091;209;en;209 Dense boulder field;Dense boulder field;Surface
+2092;209;it;209 Massi densamente sparsi;Massi densamente sparsi;Surface
+2093;209;fr;209 text fr;text fr;Surface
+2094;209;de;209 text de;text de;Surface
+2101;210;en;210 Stony ground, slow tunning;Stony ground, slow tunning;Surface
+2102;210;it;210 Terreno sassoso, corsa lenta;Terreno sassoso, corsa lenta;Surface
+2103;210;fr;210 text fr;text fr;Surface
+2104;210;de;210 text de;text de;Surface
+2111;211;en;211 Stony ground, walk;Stony ground, walk;Surface
+2112;211;it;211 Terreno sassoso, al passo;Terreno sassoso, al passo;Surface
+2113;211;fr;211 text fr;text fr;Surface
+2114;211;de;211 text de;text de;Surface
+2121;212;en;212 Stony ground, fight;Stony ground, fight;Surface
+2122;212;it;212 Terreno sassoso, attraversamento difficile;Terreno sassoso, attraversamento difficile;Surface
+2123;212;fr;212 text fr;text fr;Surface
+2124;212;de;212 text de;text de;Surface
+2131;213;en;213 Sandy ground;Sandy ground;Surface
+2132;213;it;213 Terreno sabbioso;Terreno sabbioso;Surface
+2133;213;fr;213 text fr;text fr;Surface
+2134;213;de;213 text de;text de;Surface
+2141;214;en;214 Bare rock;Bare rock;Surface
+2142;214;it;214 Roccia nuda;Roccia nuda;Surface
+2143;214;fr;214 text fr;text fr;Surface
+2144;214;de;214 text de;text de;Surface
+2151;215;en;215 Trench;Trench;Line
+2152;215;it;215 Trincea;Trincea;Line
+2153;215;fr;215 text fr;text fr;Line
+2154;215;de;215 text de;text de;Line
+3011;301;en;301 Uncrossable body of water;Uncrossable body of water;Surface
+3012;301;it;301 Specchio d'acqua non attraversabile;Specchio d'acqua non attraversabile;Surface
+3013;301;fr;301 text fr;text fr;Surface
+3014;301;de;301 text de;text de;Surface
+3021;302;en;302 Shallow body of water;Shallow body of water;Surface
+3022;302;it;302 Specchio d'acqua poco profondo;Specchio d'acqua poco profondo;Surface
+3023;302;fr;302 text fr;text fr;Surface
+3024;302;de;302 text de;text de;Surface
+3031;303;en;303 Waterhole;Waterhole;Point
+3032;303;it;303 Buca d'acqua;Buca d'acqua;Point
+3033;303;fr;303 text fr;text fr;Point
+3034;303;de;303 text de;text de;Point
+3041;304;en;304 Crossable watercourse;Crossable watercourse;Line
+3042;304;it;304 Corso d'acqua attraversabile;Corso d'acqua attraversabile;Line
+3043;304;fr;304 text fr;text fr;Line
+3044;304;de;304 text de;text de;Line
+3051;305;en;305 Small crossable watercourse;Small crossable watercourse;Line
+3052;305;it;305 Piccolo corso d'acqua attraversabile;Piccolo corso d'acqua attraversabile;Line
+3053;305;fr;305 text fr;text fr;Line
+3054;305;de;305 text de;text de;Line
+3061;306;en;306 Minor/seasonal water channel;Minor/seasonal water channel;Line
+3062;306;it;306 Canale d'acqua secondario/stagionale;Canale d'acqua secondario/stagionale;Line
+3063;306;fr;306 text fr;text fr;Line
+3064;306;de;306 text de;text de;Line
+3071;307;en;307 Uncrossable marsh;Uncrossable marsh;Surface
+3072;307;it;307 Palude non attraversabile;Palude non attraversabile;Surface
+3073;307;fr;307 text fr;text fr;Surface
+3074;307;de;307 text de;text de;Surface
+3081;308;en;308 Marsh;Marsh;Surface
+3082;308;it;308 Palude;Palude;Surface
+3083;308;fr;308 text fr;text fr;Surface
+3084;308;de;308 text de;text de;Surface
+3091;309;en;309 Narrow marsh;Narrow marsh;Line
+3092;309;it;309 Palude stretta;Palude stretta;Line
+3093;309;fr;309 text fr;text fr;Line
+3094;309;de;309 text de;text de;Line
+3101;310;en;310 Indistinct marsh;Indistinct marsh;Surface
+3102;310;it;310 Palude poco evidente;Palude poco evidente;Surface
+3103;310;fr;310 text fr;text fr;Surface
+3104;310;de;310 text de;text de;Surface
+3111;311;en;311 Well, fountain or water tank;Well, fountain or water tank;Point
+3112;311;it;311 Pozzo, fontana o cisterna;Pozzo, fontana o cisterna;Point
+3113;311;fr;311 text fr;text fr;Point
+3114;311;de;311 text de;text de;Point
+3121;312;en;312 Spring;Spring;Point
+3122;312;it;312 Sorgente;Sorgente;Point
+3123;312;fr;312 text fr;text fr;Point
+3124;312;de;312 text de;text de;Point
+3131;313;en;313 Prominent water feature;Prominent water feature;Point
+3132;313;it;313 Oggetto idrico evidente;Oggetto idrico evidente;Point
+3133;313;fr;313 text fr;text fr;Point
+3134;313;de;313 text de;text de;Point
+4011;401;en;401 Open land;Open land;Surface
+4012;401;it;401 Terreno aperto;Terreno aperto;Surface
+4013;401;fr;401 text fr;text fr;Surface
+4014;401;de;401 text de;text de;Surface
+4021;402;en;402 Open land with scattered trees;Open land with scattered trees;Surface
+4022;402;it;402 Terreno aperto con alberi sparsi;Terreno aperto con alberi sparsi;Surface
+4023;402;fr;402 text fr;text fr;Surface
+4024;402;de;402 text de;text de;Surface
+4031;403;en;403 Rough open land;Rough open land;Surface
+4032;403;it;403 Terreno aperto grezzo;Terreno aperto grezzo;Surface
+4033;403;fr;403 text fr;text fr;Surface
+4034;403;de;403 text de;text de;Surface
+4041;404;en;404 Rough open land with scattered trees;Rough open land with scattered trees;Surface
+4042;404;it;404 Terreno aperto grezzo con alberi sparsi;Terreno aperto grezzo con alberi sparsi;Surface
+4043;404;fr;404 text fr;text fr;Surface
+4044;404;de;404 text de;text de;Surface
+4051;405;en;405 Forest;Forest;Surface
+4052;405;it;405 Bosco;Bosco;Surface
+4053;405;fr;405 text fr;text fr;Surface
+4054;405;de;405 text de;text de;Surface
+4061;406;en;406 Vegetation: slow running;Vegetation: slow running;Surface
+4062;406;it;406 Vegetazione: corsa lenta;Vegetazione: corsa lenta;Surface
+4063;406;fr;406 text fr;text fr;Surface
+4064;406;de;406 text de;text de;Surface
+4071;407;en;407 Vegetation, slow running, good visibility;Vegetation, slow running, good visibility;Surface
+4072;407;it;407 Vegetazione: corsa lenta, buona visibilità;Vegetazione: corsa lenta, buona visibilità;Surface
+4073;407;fr;407 text fr;text fr;Surface
+4074;407;de;407 text de;text de;Surface
+4081;408;en;408 Vegetation: walk;Vegetation: walk;Surface
+4082;408;it;408 Vegetazione: corsa molto ostacolata;Vegetazione: corsa molto ostacolata;Surface
+4083;408;fr;408 text fr;text fr;Surface
+4084;408;de;408 text de;text de;Surface
+4091;409;en;409 Vegetation: walk, good visibility;Vegetation: walk, good visibility;Surface
+4092;409;it;409 Vegetazione: corsa molto ostacolata, buona visibilità;Vegetazione: corsa molto ostacolata, buona visibilità;Surface
+4093;409;fr;409 text fr;text fr;Surface
+4094;409;de;409 text de;text de;Surface
+4101;410;en;410 Vegetation: fight;Vegetation: fight;Surface
+4102;410;it;410 Vegetazione: attraversamento difficile;Vegetazione: attraversamento difficile;Surface
+4103;410;fr;410 text fr;text fr;Surface
+4104;410;de;410 text de;text de;Surface
+4121;412;en;412 Cultivated land;Cultivated land;Surface
+4122;412;it;412 Terreno coltivato;Terreno coltivato;Surface
+4123;412;fr;412 text fr;text fr;Surface
+4124;412;de;412 text de;text de;Surface
+4131;413;en;413 Orchard;Orchard;Surface
+4132;413;it;413 Frutteto;Frutteto;Surface
+4133;413;fr;413 text fr;text fr;Surface
+4134;413;de;413 text de;text de;Surface
+4141;414;en;414 Vineyard or similar;Vineyard or similar;Surface
+4142;414;it;414 Vigneto o simile;Vigneto o simile;Surface
+4143;414;fr;414 text fr;text fr;Surface
+4144;414;de;414 text de;text de;Surface
+4151;415;en;415 Distinct cultivation boundary;Distinct cultivation boundary;Line
+4152;415;it;415 Margine netto di coltivazione;Margine netto di coltivazione;Line
+4153;415;fr;415 text fr;text fr;Line
+4154;415;de;415 text de;text de;Line
+4161;416;en;416 Distinct vegetation boundary;Distinct vegetation boundary;Line
+4162;416;it;416 Margine netto di vegetazione;Margine netto di vegetazione;Line
+4163;416;fr;416 text fr;text fr;Line
+4164;416;de;416 text de;text de;Line
+4171;417;en;417 Prominent large tree;Prominent large tree;Point
+4172;417;it;417 Grande albero evidente;Grande albero evidente;Point
+4173;417;fr;417 text fr;text fr;Point
+4174;417;de;417 text de;text de;Point
+4181;418;en;418 Prominent bush or tree;Prominent bush or tree;Point
+4182;418;it;418 Albero o cespuglio evidente;Albero o cespuglio evidente;Point
+4183;418;fr;418 text fr;text fr;Point
+4184;418;de;418 text de;text de;Point
+4191;419;en;419 Prominent vegetation feature;Prominent vegetation feature;Point
+4192;419;it;419 Oggetto vegetale evidente;Oggetto vegetale evidente;Point
+4193;419;fr;419 text fr;text fr;Point
+4194;419;de;419 text de;text de;Point
+5011;501;en;501 Paved area;Paved area;Surface
+5012;501;it;501 Area pavimentata;Area pavimentata;Surface
+5013;501;fr;501 text fr;text fr;Surface
+5014;501;de;501 text de;text de;Surface
+5021;502;en;502 Wide road;Wide road;Line
+5022;502;it;502 Strada principale;Strada principale;Line
+5023;502;fr;502 text fr;text fr;Line
+5024;502;de;502 text de;text de;Line
+5031;503;en;503 Troad;Troad;Line
+5032;503;it;503 Strada;Strada;Line
+5033;503;fr;503 text fr;text fr;Line
+5034;503;de;503 text de;text de;Line
+5041;504;en;504 Vehicle track;Vehicle track;Line
+5042;504;it;504 Carrareccia;Carrareccia;Line
+5043;504;fr;504 text fr;text fr;Line
+5044;504;de;504 text de;text de;Line
+5051;505;en;505 Footpath;Footpath;Line
+5052;505;it;505 Sentiero;Sentiero;Line
+5053;505;fr;505 text fr;text fr;Line
+5054;505;de;505 text de;text de;Line
+5061;506;en;506 Small footpath;Small footpath;Line
+5062;506;it;506 Piccolo sentiero;Piccolo sentiero;Line
+5063;506;fr;506 text fr;text fr;Line
+5064;506;de;506 text de;text de;Line
+5071;507;en;507 Less distinct small footpath;Less distinct small footpath;Line
+5072;507;it;507 Piccolo sentiero indistinto;Piccolo sentiero indistinto;Line
+5073;507;fr;507 text fr;text fr;Line
+5074;507;de;507 text de;text de;Line
+5081;508;en;508 Narrow ride or linear trace through the terrain;Narrow ride or linear trace through the terrain;Line
+5082;508;it;508 Stretta pista o traccia lineare sul terreno;Stretta pista o traccia lineare sul terreno;Line
+5083;508;fr;508 text fr;text fr;Line
+5084;508;de;508 text de;text de;Line
+5091;509;en;509 Railway;Railway;Line
+5092;509;it;509 Ferrovia;Ferrovia;Line
+5093;509;fr;509 text fr;text fr;Line
+5094;509;de;509 text de;text de;Line
+5101;510;en;510 Power line, cableway or skilift;Power line, cableway or skilift;Line
+5102;510;it;510 Linea elettrica, funivia o skilift;Linea elettrica, funivia o skilift;Line
+5103;510;fr;510 text fr;text fr;Line
+5104;510;de;510 text de;text de;Line
+5111;511;en;511 Major power line;Major power line;Line
+5112;511;it;511 Elettrodotto d'alta tensione;Elettrodotto d'alta tensione;Line
+5113;511;fr;511 text fr;text fr;Line
+5114;511;de;511 text de;text de;Line
+5121;512;en;512 Bridge / tunnel;Bridge / tunnel;Line
+5122;512;it;512 Ponte / galleria;Ponte / galleria;Line
+5123;512;fr;512 text fr;text fr;Line
+5124;512;de;512 text de;text de;Line
+5131;513;en;513 Wall;Wall;Line
+5132;513;it;513 Muretto;Muretto;Line
+5133;513;fr;513 text fr;text fr;Line
+5134;513;de;513 text de;text de;Line
+5141;514;en;514 Ruined wall;Ruined wall;Line
+5142;514;it;514 Muretto diroccato;Muretto diroccato;Line
+5143;514;fr;514 text fr;text fr;Line
+5144;514;de;514 text de;text de;Line
+5151;515;en;515 Impassable wall;Impassable wall;Line
+5152;515;it;515 Muro non attraversabile;Muro non attraversabile;Line
+5153;515;fr;515 text fr;text fr;Line
+5154;515;de;515 text de;text de;Line
+5161;516;en;516 Fence;Fence;Line
+5162;516;it;516 Recinzione;Recinzione;Line
+5163;516;fr;516 text fr;text fr;Line
+5164;516;de;516 text de;text de;Line
+5171;517;en;517 Ruined fence;Ruined fence;Line
+5172;517;it;517 Recinzione in rovina;Recinzione in rovina;Line
+5173;517;fr;517 text fr;text fr;Line
+5174;517;de;517 text de;text de;Line
+5181;518;en;518 Impassable fence;Impassable fence;Line
+5182;518;it;518 Recinto non attraversabile;Recinto non attraversabile;Line
+5183;518;fr;518 text fr;text fr;Line
+5184;518;de;518 text de;text de;Line
+5191;519;en;519 Crossing point;Crossing point;Point
+5192;519;it;519 Punto di passaggio;Punto di passaggio;Point
+5193;519;fr;519 text fr;text fr;Point
+5194;519;de;519 text de;text de;Point
+5201;520;en;520 Area that shall not be entered;Area that shall not be entered;Surface
+5202;520;it;520 Area vietata all'accesso;Area vietata all'accesso;Surface
+5203;520;fr;520 text fr;text fr;Surface
+5204;520;de;520 text de;text de;Surface
+5211;521;en;521 Building;Building;Surface
+5212;521;it;521 Edificio;Edificio;Surface
+5213;521;fr;521 text fr;text fr;Surface
+5214;521;de;521 text de;text de;Surface
+5221;522;en;522 Canopy;Canopy;Surface
+5222;522;it;522 Tettoia;Tettoia;Surface
+5223;522;fr;522 text fr;text fr;Surface
+5224;522;de;522 text de;text de;Surface
+5231;523;en;523 Ruin;Ruin;Line
+5232;523;it;523 Rudere;Rudere;Line
+5233;523;fr;523 text fr;text fr;Line
+5234;523;de;523 text de;text de;Line
+5241;524;en;524 High tower;High tower;Point
+5242;524;fr;524 text fr;text fr;Point
+5243;524;de;524 text de;text de;Point
+5254;525;en;525 Small tower;Small tower;Point
+5251;525;it;525 Piccola torre;Piccola torre;Point
+5252;525;fr;525 text fr;text fr;Point
+5253;525;de;525 text de;text de;Point
+5264;526;en;526 Cairn;Cairn;Point
+5261;526;it;526 Cippo;Cippo;Point
+5262;526;fr;526 text fr;text fr;Point
+5263;526;de;526 text de;text de;Point
+5274;527;en;527 Fodder rack;Fodder rack;Point
+5271;527;it;527 Mangiatoia;Mangiatoia;Point
+5272;527;fr;527 text fr;text fr;Point
+5273;527;de;527 text de;text de;Point
+5284;528;en;528 Prominent line feature;Prominent line feature;Line
+5281;528;it;528 Oggetto lineare evidente;Oggetto lineare evidente;Line
+5282;528;fr;528 text fr;text fr;Line
+5283;528;de;528 text de;text de;Line
+5294;529;en;529 Prominent impassable line feature;Prominent impassable line feature;Line
+5291;529;it;529 Evidente oggetto lineare non attraversabile;Evidente oggetto lineare non attraversabile;Line
+5292;529;fr;529 text fr;text fr;Line
+5293;529;de;529 text de;text de;Line
+5304;530;en;530 Prominent man-made feature - ring;Prominent man-made feature - ring;Point
+5301;530;it;530 Evidente oggetto artificiale - cerchio;Evidente oggetto artificiale - cerchio;Point
+5302;530;fr;530 text fr;text fr;Point
+5303;530;de;530 text de;text de;Point
+5314;531;en;531 Prominent man-made feature - x;Prominent man-made feature - x;Point
+5311;531;it;531 Evidente oggetto artificiale - x;Evidente oggetto artificiale - x;Point
+5312;531;fr;531 text fr;text fr;Point
+5313;531;de;531 text de;text de;Point
+5324;532;en;532 Stairway;Stairway;Line
+5321;532;it;532 Scalinata;Scalinata;Line
+5322;532;fr;532 text fr;text fr;Line
+5323;532;de;532 text de;text de;Line
+5344;534;it;534 Torre alta, traliccio;Torre alta, traliccio;Point

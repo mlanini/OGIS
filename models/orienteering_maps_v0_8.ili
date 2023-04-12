@@ -43,12 +43,9 @@ MODEL orienteering_maps_v0_8 (en) AT "http://models.intelligeo.ch/OMAP" VERSION 
     DEPENDS ON orienteering_maps_v0_8.catalogue_symbols;
 
     CLASS omap_element (ABSTRACT) =
-      uuid           : MANDATORY TEXT*40;
       symbol_ref     : MANDATORY orienteering_maps_v0_8.catalogue_symbols.symbol_ref;
       orientation    :           0.0 .. 359.9 CIRCULAR [Angle_Degree];   !! for portrayal purposes
       remarks        :           TEXT*255;
-
-      UNIQUE uuid;
     END omap_element;
 
     CLASS omap_point_feature EXTENDS omap_element =
@@ -64,5 +61,28 @@ MODEL orienteering_maps_v0_8 (en) AT "http://models.intelligeo.ch/OMAP" VERSION 
     END omap_area_feature;
 
   END omaps;
+  
+  TOPIC course_planning =
+    DOMAIN
+      point_type = (start, control, finish, start_finish, first_aid, refreshment);
+      line_type = (course_line, marked_route, out_of_bounds_route, crossing);
+      area_type = (out_of_bounds_area);
+
+    CLASS course_planning_points = 
+      type           : MANDATORY point_type;
+      geometry       : MANDATORY GeometryCHLV95_V1.Coord2;
+    END course_planning_points;
+
+    CLASS course_planning_lines = 
+      type           : MANDATORY line_type;
+      geometry       : MANDATORY GeometryCHLV95_V1.MultiLine;
+    END course_planning_lines;
+
+    CLASS course_planning_areas = 
+      type           : MANDATORY area_type;
+      geometry       : MANDATORY GeometryCHLV95_V1.MultiSurface;
+    END course_planning_areas;
+   
+  END course_planning;
 
 END orienteering_maps_v0_8.

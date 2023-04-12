@@ -184,3 +184,8 @@ resources/aoi.prj
 resources/aoi.dbf
 resources/aoi.shp
 resources/aoi.shx
+models/symb_cat.fmw
+models/symb_cat.log
+models/orienteering_maps_v0_8.fmw
+models/orienteering_maps_v0_8.log
+models/ISOM_Symbols_Catalogue.xlsx
