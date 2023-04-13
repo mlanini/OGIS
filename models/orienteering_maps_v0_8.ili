@@ -7,17 +7,18 @@ INTERLIS 2.3;
  
 !! Change log
 !! version     | date       | user        | change type      | comments
-!! ------------------------------------------------------------------------------------
+!! ----------------------------------------------------------------------------------------
 !! 0.8-ALPHA   | 2023-03-04 | mlanini     | draft            | first draft
 !!             | 2023-03-08 | mlanini     | update           | one CLASS per geom type
-!!-------------------------------------------------------------------------------------
+!!             | 2023-04-13 | mlanini     | update           | added TOPIC course_planning
+!!-----------------------------------------------------------------------------------------
 !!@ technicalContact=mailto:omap@intelligeo.ch
 !!@ furtherInformation=https://www.intelligeo.ch
 !!@ Compiler-Version="5.3.2"
 
-MODEL orienteering_maps_v0_8 (en) AT "http://models.intelligeo.ch/OMAP" VERSION "2023-03-08" =
+MODEL orienteering_maps_v0_8 (en) AT "http://models.intelligeo.ch/OMAP" VERSION "2023-04-13" =
   
-  IMPORTS UNQUALIFIED Units;
+  IMPORTS Units;
   IMPORTS CatalogueObjects_V1;
   IMPORTS LocalisationCH_V1;
   IMPORTS GeometryCHLV95_V1;
@@ -44,7 +45,7 @@ MODEL orienteering_maps_v0_8 (en) AT "http://models.intelligeo.ch/OMAP" VERSION 
 
     CLASS omap_element (ABSTRACT) =
       symbol_ref     : MANDATORY orienteering_maps_v0_8.catalogue_symbols.symbol_ref;
-      orientation    :           0.0 .. 359.9 CIRCULAR [Angle_Degree];   !! for portrayal purposes
+      orientation    :           0.0 .. 359.9 CIRCULAR [Units.Angle_Degree];   !! for portrayal purposes
       remarks        :           TEXT*255;
     END omap_element;
 
