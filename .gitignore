@@ -189,3 +189,14 @@ models/symb_cat.log
 models/orienteering_maps_v0_8.fmw
 models/orienteering_maps_v0_8.log
 models/ISOM_Symbols_Catalogue.xlsx
+qgis3modeler/20230413_ogd2ogis.model3
+qgis3modeler/20230413_ogd2ogis.model3
+export_fgb/ti_omap_a.fgb
+export_fgb/ti_omap_l.fgb
+export_fgb/ti_omap_a.qmd
+export_fgb/ti_omap_l.qmd
+*.fgb
+export_fgb/ti_omap_p.qmd
+ogis2web.qgz
+omap.qgs
+omaps_alwaysdata.qgz
