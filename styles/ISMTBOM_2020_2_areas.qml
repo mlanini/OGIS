@@ -1,56 +1,56 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis styleCategories="Symbology" version="3.28.4-Firenze">
-  <renderer-v2 forceraster="0" symbollevels="0" referencescale="-1" enableorderby="0" type="RuleRenderer">
+<qgis styleCategories="Symbology" version="3.28.12-Firenze">
+  <renderer-v2 referencescale="-1" symbollevels="0" forceraster="0" type="RuleRenderer" enableorderby="0">
     <rules key="{c4a2fe6e-5f6c-4910-99e2-27157538e2ca}">
-      <rule filter="&quot;Code&quot; = 113" key="{fabb3baf-2fa1-4dc1-812c-f7a0eaa3a767}" symbol="0" label="113 broken ground"/>
-      <rule filter="&quot;Code&quot; = 114" key="{1e0f30d3-cfb6-494e-9cb1-ef37c2d4ba55}" symbol="1" label="114 very broken gound"/>
-      <rule filter="&quot;Code&quot; = 206" key="{84045ebc-a5bd-4b7d-8fd7-e41e8775ca44}" symbol="2" label="206 gigantic boulder"/>
-      <rule filter="&quot;Code&quot; = 208" key="{fb34c5cd-4b3b-45ee-9eb1-1b7aaef40c2a}" symbol="3" label="208 boulder field"/>
-      <rule filter="&quot;Code&quot; = 209" key="{0c541ac6-27a3-435f-a933-e3efbaae78b6}" symbol="4" label="209 dense boulder field"/>
-      <rule filter="&quot;Code&quot; = 210" key="{0f9a079e-eedc-40fe-985d-1bb88590679e}" symbol="5" label="210 stony ground - slow running"/>
-      <rule filter="&quot;Code&quot; = 211" key="{fdd81b78-2a6a-4992-b53b-bbc08c1e05b0}" symbol="6" label="211 stony ground - walk"/>
-      <rule filter="&quot;Code&quot; = 212" key="{f6a8c01c-4c86-4854-8919-08339c4fe278}" symbol="7" label="212 stony ground - fight"/>
-      <rule filter="&quot;Code&quot; = 213" key="{5bc6228a-7151-4128-b893-cf3fa632ef78}" symbol="8" label="213 sandy ground"/>
-      <rule filter="&quot;Code&quot; = 214" key="{b2ccc582-7387-4d62-b849-763a351d6046}" symbol="9" label="214 bare rock"/>
-      <rule filter="&quot;Code&quot; = 301" key="{e4c22157-3439-4475-850f-23a6fcde168e}" symbol="10" label="301 uncrossable body of water"/>
-      <rule filter="&quot;Code&quot; = 302" key="{5710a44a-5245-4eec-8760-4708b14fe24b}" symbol="11" label="302 shallow body of water"/>
-      <rule filter="&quot;Code&quot; = '302P'" key="{eba2d9ac-bc55-4a1e-b0b5-5bb0ec494c17}" symbol="12" label="302P shallow body of water - periodic"/>
-      <rule filter="&quot;Code&quot; = '302S'" key="{70082fb7-ea85-47f0-ab65-ae764a7c030d}" symbol="13" label="302S shallow body of water - small"/>
-      <rule filter="&quot;Code&quot; = 307" key="{de39ebfe-25b7-4439-a911-b72d20d6729d}" symbol="14" label="307 uncrossable marsh"/>
-      <rule filter="&quot;Code&quot; = 308" key="{892e6171-b2fa-42ed-8bac-b9ee74c16149}" symbol="15" label="308 marsh"/>
-      <rule filter="&quot;Code&quot; = 309" key="{70145d1d-b071-4c81-b919-4f013f300011}" symbol="16" label="309 indistinct marsh"/>
-      <rule filter="&quot;Code&quot; = 401" key="{f5581e72-bf3f-4b5a-85d9-064c596c566a}" symbol="17" label="401 open land"/>
-      <rule filter="&quot;Code&quot; = '402B'" key="{732437e6-a44c-4a23-aa55-eeef5e0c44d6}" symbol="18" label="402B open land with scattered bushes/thickets"/>
-      <rule filter="&quot;Code&quot; = '402T'" key="{f9617897-51a4-4cc1-bf23-0b338f54f602}" symbol="19" label="402T open land with scattered trees"/>
-      <rule filter="&quot;Code&quot; = 403" key="{4a9c84bf-44a1-49f4-b032-a654c855c010}" symbol="20" label="403 rough open land"/>
-      <rule filter="&quot;Code&quot; = '404B'" key="{f891ed1e-db6d-45b9-ac5d-8d027884121b}" symbol="21" label="404B rough open land with scattered bushes/thickets"/>
-      <rule filter="&quot;Code&quot; = '404T'" key="{7ab02083-7452-41e9-a442-30adcedc9d8b}" symbol="22" label="404T rough open land with scattered trees"/>
-      <rule filter="&quot;Code&quot; = 405" key="{bc44adb3-06c4-408b-9e7c-c55c4012c0de}" symbol="23" label="405 forest - open (only used to make holes in green)"/>
-      <rule filter="&quot;Code&quot; = 406" key="{b81b733d-30f7-4156-aaf5-e5758aa54ae7}" symbol="24" label="406 vegetation slow running"/>
-      <rule filter="&quot;Code&quot; = '406D'" key="{36a850e2-69ce-4817-938b-c7923f2e050e}" symbol="25" label="406D vegetation slow running - directional"/>
-      <rule filter="&quot;Code&quot; = 407" key="{d045a087-1fb0-4fe9-8f2e-0bc7c45e9049}" symbol="26" label="407 vegetation slow running - good visibility"/>
-      <rule filter="&quot;Code&quot; = 408" key="{c9888c16-1e32-457d-87fe-5e00a4a1ac60}" symbol="27" label="408 vegetation walk"/>
-      <rule filter="&quot;Code&quot; = '408D'" key="{36bff687-babf-473d-84b8-81f3dc748fa2}" symbol="28" label="408D vegetation walk - directional"/>
-      <rule filter="&quot;Code&quot; = 409" key="{2d7ef7c8-7ffe-4bd7-895e-c18cfa6807af}" symbol="29" label="409 vegetation walk - good visibility"/>
-      <rule filter="&quot;Code&quot; = 410" key="{dabdc14f-fe49-4b65-9e6f-1f89600009b8}" symbol="30" label="410 vegetation fight"/>
-      <rule filter="&quot;Code&quot; = '410D'" key="{2bf1c20f-7261-497f-8dc9-21887b44e2d1}" symbol="31" label="410D vegetation fight - directional"/>
-      <rule filter="&quot;Code&quot; = 412" key="{eb9c80d6-0d3d-4e0f-9248-26ee9dfbe2f0}" symbol="32" label="412 cultivated land"/>
-      <rule filter="&quot;Code&quot; = 413" key="{ee12c828-b0a2-48f0-946f-101295ffae6c}" symbol="33" label="413 orchard"/>
-      <rule filter="&quot;Code&quot; = '414D'" key="{1dbbe724-5f5d-4db8-b552-1d888e7e6aaf}" symbol="34" label="414 vineyard - directional"/>
-      <rule filter="&quot;Code&quot; = '501E'" key="{f7474b10-dc20-4c9a-9787-de2674976457}" symbol="35" label="501E paved area edged"/>
-      <rule filter="&quot;Code&quot; = '501NE'" key="{5c1d9c58-455b-42ce-bce9-b6d353b8ff21}" symbol="36" label="501NE paved area no edge"/>
-      <rule filter="&quot;Code&quot; = 520" checkstate="0" key="{740e4346-9acd-4399-9cd8-19f20eaab01b}" symbol="37" label="520 area that should not be entered"/>
-      <rule filter="&quot;Code&quot; = 521" scalemaxdenom="7501" key="{aab49dd3-b4ba-4a32-bd8e-c27218943ab9}" symbol="38" label="521 building > 1:7500"/>
-      <rule filter="&quot;Code&quot; = 521" scalemaxdenom="1000000" scalemindenom="7501" key="{fd0ab483-1171-4380-a6dd-4f69a5a8df1a}" symbol="39" label="521 building &lt; 1:7500"/>
-      <rule filter="&quot;Code&quot; = 522" key="{a5e34f94-eeee-4bf1-91c7-6ec423edabad}" symbol="40" label="522 canopy"/>
-      <rule filter="&quot;Code&quot; = 824" key="{401f2b58-a355-44df-a8a9-0072e0afed5d}" symbol="41" label="824 open land - permnitted to ride"/>
-      <rule filter="&quot;Code&quot; = 826" key="{549505ea-87f9-44a2-bcd1-9f63a73f5145}" symbol="42" label="826 rough open land - permnitted to ride"/>
-      <rule filter="&quot;Code&quot; = 825.1" key="{d17bbf6a-8a93-49d6-8f3f-18e3a9eb8c34}" symbol="43" label="825.1 forested area - permitted to ride"/>
-      <rule filter="&quot;Code&quot; = 825.2" key="{b9d057d0-3039-4c8b-bcdb-693d375d7850}" symbol="44" label="825.2 minor forested area - permitted to ride"/>
-      <rule filter="&quot;Code&quot; = 'NE'" checkstate="0" key="{e9a73169-152e-46f9-911b-45bdb649580e}" symbol="45" label="NO ENTRY"/>
+      <rule filter="&quot;Code&quot; = 113" label="113 broken ground" symbol="0" key="{fabb3baf-2fa1-4dc1-812c-f7a0eaa3a767}"/>
+      <rule filter="&quot;Code&quot; = 114" label="114 very broken gound" symbol="1" key="{1e0f30d3-cfb6-494e-9cb1-ef37c2d4ba55}"/>
+      <rule filter="&quot;Code&quot; = 206" label="206 gigantic boulder" symbol="2" key="{84045ebc-a5bd-4b7d-8fd7-e41e8775ca44}"/>
+      <rule filter="&quot;Code&quot; = 208" label="208 boulder field" symbol="3" key="{fb34c5cd-4b3b-45ee-9eb1-1b7aaef40c2a}"/>
+      <rule filter="&quot;Code&quot; = 209" label="209 dense boulder field" symbol="4" key="{0c541ac6-27a3-435f-a933-e3efbaae78b6}"/>
+      <rule filter="&quot;Code&quot; = 210" label="210 stony ground - slow running" symbol="5" key="{0f9a079e-eedc-40fe-985d-1bb88590679e}"/>
+      <rule filter="&quot;Code&quot; = 211" label="211 stony ground - walk" symbol="6" key="{fdd81b78-2a6a-4992-b53b-bbc08c1e05b0}"/>
+      <rule filter="&quot;Code&quot; = 212" label="212 stony ground - fight" symbol="7" key="{f6a8c01c-4c86-4854-8919-08339c4fe278}"/>
+      <rule filter="&quot;Code&quot; = 213" label="213 sandy ground" symbol="8" key="{5bc6228a-7151-4128-b893-cf3fa632ef78}"/>
+      <rule filter="&quot;Code&quot; = 214" label="214 bare rock" symbol="9" key="{b2ccc582-7387-4d62-b849-763a351d6046}"/>
+      <rule filter="&quot;Code&quot; = 301" label="301 uncrossable body of water" symbol="10" key="{e4c22157-3439-4475-850f-23a6fcde168e}"/>
+      <rule filter="&quot;Code&quot; = 302" label="302 shallow body of water" symbol="11" key="{5710a44a-5245-4eec-8760-4708b14fe24b}"/>
+      <rule filter="&quot;Code&quot; = '302P'" label="302P shallow body of water - periodic" symbol="12" key="{eba2d9ac-bc55-4a1e-b0b5-5bb0ec494c17}"/>
+      <rule filter="&quot;Code&quot; = '302S'" label="302S shallow body of water - small" symbol="13" key="{70082fb7-ea85-47f0-ab65-ae764a7c030d}"/>
+      <rule filter="&quot;Code&quot; = 307" label="307 uncrossable marsh" symbol="14" key="{de39ebfe-25b7-4439-a911-b72d20d6729d}"/>
+      <rule filter="&quot;Code&quot; = 308" label="308 marsh" symbol="15" key="{892e6171-b2fa-42ed-8bac-b9ee74c16149}"/>
+      <rule filter="&quot;Code&quot; = 309" label="309 indistinct marsh" symbol="16" key="{70145d1d-b071-4c81-b919-4f013f300011}"/>
+      <rule filter="&quot;Code&quot; = 401" label="401 open land" symbol="17" key="{f5581e72-bf3f-4b5a-85d9-064c596c566a}"/>
+      <rule filter="&quot;Code&quot; = '402B'" label="402B open land with scattered bushes/thickets" symbol="18" key="{732437e6-a44c-4a23-aa55-eeef5e0c44d6}"/>
+      <rule filter="&quot;Code&quot; = '402T'" label="402T open land with scattered trees" symbol="19" key="{f9617897-51a4-4cc1-bf23-0b338f54f602}"/>
+      <rule filter="&quot;Code&quot; = 403" label="403 rough open land" symbol="20" key="{4a9c84bf-44a1-49f4-b032-a654c855c010}"/>
+      <rule filter="&quot;Code&quot; = '404B'" label="404B rough open land with scattered bushes/thickets" symbol="21" key="{f891ed1e-db6d-45b9-ac5d-8d027884121b}"/>
+      <rule filter="&quot;Code&quot; = '404T'" label="404T rough open land with scattered trees" symbol="22" key="{7ab02083-7452-41e9-a442-30adcedc9d8b}"/>
+      <rule filter="&quot;Code&quot; = 405" label="405 forest - open (only used to make holes in green)" symbol="23" key="{bc44adb3-06c4-408b-9e7c-c55c4012c0de}"/>
+      <rule filter="&quot;Code&quot; = 406" label="406 vegetation slow running" symbol="24" key="{b81b733d-30f7-4156-aaf5-e5758aa54ae7}"/>
+      <rule filter="&quot;Code&quot; = '406D'" label="406D vegetation slow running - directional" symbol="25" key="{36a850e2-69ce-4817-938b-c7923f2e050e}"/>
+      <rule filter="&quot;Code&quot; = 407" label="407 vegetation slow running - good visibility" symbol="26" key="{d045a087-1fb0-4fe9-8f2e-0bc7c45e9049}"/>
+      <rule filter="&quot;Code&quot; = 408" label="408 vegetation walk" symbol="27" key="{c9888c16-1e32-457d-87fe-5e00a4a1ac60}"/>
+      <rule filter="&quot;Code&quot; = '408D'" label="408D vegetation walk - directional" symbol="28" key="{36bff687-babf-473d-84b8-81f3dc748fa2}"/>
+      <rule filter="&quot;Code&quot; = 409" label="409 vegetation walk - good visibility" symbol="29" key="{2d7ef7c8-7ffe-4bd7-895e-c18cfa6807af}"/>
+      <rule filter="&quot;Code&quot; = 410" label="410 vegetation fight" symbol="30" key="{dabdc14f-fe49-4b65-9e6f-1f89600009b8}"/>
+      <rule filter="&quot;Code&quot; = '410D'" label="410D vegetation fight - directional" symbol="31" key="{2bf1c20f-7261-497f-8dc9-21887b44e2d1}"/>
+      <rule filter="&quot;Code&quot; = 412" label="412 cultivated land" symbol="32" key="{eb9c80d6-0d3d-4e0f-9248-26ee9dfbe2f0}"/>
+      <rule filter="&quot;Code&quot; = 413" label="413 orchard" symbol="33" key="{ee12c828-b0a2-48f0-946f-101295ffae6c}"/>
+      <rule filter="&quot;Code&quot; = '414D'" label="414 vineyard - directional" symbol="34" key="{1dbbe724-5f5d-4db8-b552-1d888e7e6aaf}"/>
+      <rule filter="&quot;Code&quot; = '501E'" label="501E paved area edged" symbol="35" key="{f7474b10-dc20-4c9a-9787-de2674976457}"/>
+      <rule filter="&quot;Code&quot; = '501NE'" label="501NE paved area no edge" symbol="36" key="{5c1d9c58-455b-42ce-bce9-b6d353b8ff21}"/>
+      <rule filter="&quot;Code&quot; = 520" label="520 area that should not be entered" symbol="37" key="{740e4346-9acd-4399-9cd8-19f20eaab01b}"/>
+      <rule filter="&quot;Code&quot; = 521" label="521 building" symbol="38" key="{eabb136e-2de2-4ee9-b6e1-b4ad03d7136c}"/>
+      <rule filter="&quot;Code&quot; = 523" label="523 ruins" symbol="39" key="{fd0ab483-1171-4380-a6dd-4f69a5a8df1a}"/>
+      <rule filter="&quot;Code&quot; = 522" label="522 canopy" symbol="40" key="{a5e34f94-eeee-4bf1-91c7-6ec423edabad}"/>
+      <rule filter="&quot;Code&quot; = 824" label="824 open land - permnitted to ride" symbol="41" key="{401f2b58-a355-44df-a8a9-0072e0afed5d}"/>
+      <rule filter="&quot;Code&quot; = 826" label="826 rough open land - permnitted to ride" symbol="42" key="{549505ea-87f9-44a2-bcd1-9f63a73f5145}"/>
+      <rule filter="&quot;Code&quot; = 825.1" label="825.1 forested area - permitted to ride" symbol="43" key="{d17bbf6a-8a93-49d6-8f3f-18e3a9eb8c34}"/>
+      <rule filter="&quot;Code&quot; = 825.2" label="825.2 minor forested area - permitted to ride" symbol="44" key="{b9d057d0-3039-4c8b-bcdb-693d375d7850}"/>
+      <rule filter="&quot;Code&quot; = 'NE'" label="NO ENTRY" symbol="45" key="{e9a73169-152e-46f9-911b-45bdb649580e}" checkstate="0"/>
     </rules>
     <symbols>
-      <symbol name="0" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="0" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -58,7 +58,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="300" class="PointPatternFill">
+        <layer locked="0" class="PointPatternFill" enabled="1" pass="300">
           <Option type="Map">
             <Option name="angle" value="0" type="double"/>
             <Option name="clip_mode" value="shape" type="QString"/>
@@ -98,7 +98,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@0@0" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="marker" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@0@0" alpha="1" type="marker" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -106,7 +106,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleMarker">
+            <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="angle" value="0" type="QString"/>
                 <Option name="cap_style" value="square" type="QString"/>
@@ -145,7 +145,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol name="1" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="1" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -153,7 +153,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="300" class="PointPatternFill">
+        <layer locked="0" class="PointPatternFill" enabled="1" pass="300">
           <Option type="Map">
             <Option name="angle" value="0" type="double"/>
             <Option name="clip_mode" value="shape" type="QString"/>
@@ -193,7 +193,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@1@0" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="marker" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@1@0" alpha="1" type="marker" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -201,7 +201,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleMarker">
+            <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="angle" value="0" type="QString"/>
                 <Option name="cap_style" value="square" type="QString"/>
@@ -240,7 +240,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol name="10" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="10" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -248,7 +248,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="380" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="380">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="115,172,230,255" type="QString"/>
@@ -271,7 +271,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="11" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="11" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -279,7 +279,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="379" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="379">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="115,172,230,255" type="QString"/>
@@ -301,7 +301,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer locked="0" enabled="1" pass="0" class="SimpleLine">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="0">
           <Option type="Map">
             <Option name="align_dash_pattern" value="0" type="QString"/>
             <Option name="capstyle" value="flat" type="QString"/>
@@ -340,7 +340,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="12" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="12" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -348,7 +348,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="378" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="379">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="115,172,230,255" type="QString"/>
@@ -370,7 +370,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer locked="0" enabled="1" pass="0" class="SimpleLine">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="380">
           <Option type="Map">
             <Option name="align_dash_pattern" value="0" type="QString"/>
             <Option name="capstyle" value="flat" type="QString"/>
@@ -409,7 +409,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="13" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="13" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -417,7 +417,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="377" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="377">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="115,172,230,255" type="QString"/>
@@ -439,7 +439,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer locked="0" enabled="1" pass="0" class="SimpleLine">
+        <layer locked="0" class="SimpleLine" enabled="1" pass="378">
           <Option type="Map">
             <Option name="align_dash_pattern" value="0" type="QString"/>
             <Option name="capstyle" value="flat" type="QString"/>
@@ -478,7 +478,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="14" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="14" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -486,7 +486,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="401" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="401">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="255,255,255,255" type="QString"/>
@@ -508,7 +508,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer locked="0" enabled="1" pass="400" class="LinePatternFill">
+        <layer locked="0" class="LinePatternFill" enabled="1" pass="400">
           <Option type="Map">
             <Option name="angle" value="0" type="QString"/>
             <Option name="clip_mode" value="during_render" type="QString"/>
@@ -533,7 +533,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@14@1" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="line" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@14@1" alpha="1" type="line" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -541,7 +541,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleLine">
+            <layer locked="0" class="SimpleLine" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="align_dash_pattern" value="0" type="QString"/>
                 <Option name="capstyle" value="flat" type="QString"/>
@@ -582,7 +582,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol name="15" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="15" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -590,7 +590,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="401" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="401">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="255,255,255,255" type="QString"/>
@@ -612,7 +612,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer locked="0" enabled="1" pass="400" class="LinePatternFill">
+        <layer locked="0" class="LinePatternFill" enabled="1" pass="400">
           <Option type="Map">
             <Option name="angle" value="0" type="QString"/>
             <Option name="clip_mode" value="during_render" type="QString"/>
@@ -637,7 +637,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@15@1" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="line" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@15@1" alpha="1" type="line" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -645,7 +645,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleLine">
+            <layer locked="0" class="SimpleLine" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="align_dash_pattern" value="0" type="QString"/>
                 <Option name="capstyle" value="flat" type="QString"/>
@@ -686,7 +686,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol name="16" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="16" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -694,7 +694,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="0" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="0">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="255,196,0,255" type="QString"/>
@@ -716,7 +716,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer locked="0" enabled="1" pass="0" class="LinePatternFill">
+        <layer locked="0" class="LinePatternFill" enabled="1" pass="10">
           <Option type="Map">
             <Option name="angle" value="90" type="QString"/>
             <Option name="clip_mode" value="during_render" type="QString"/>
@@ -741,7 +741,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@16@1" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="line" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@16@1" alpha="1" type="line" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -749,7 +749,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleLine">
+            <layer locked="0" class="SimpleLine" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="align_dash_pattern" value="0" type="QString"/>
                 <Option name="capstyle" value="square" type="QString"/>
@@ -789,7 +789,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer locked="0" enabled="1" pass="0" class="LinePatternFill">
+        <layer locked="0" class="LinePatternFill" enabled="1" pass="10">
           <Option type="Map">
             <Option name="angle" value="90" type="QString"/>
             <Option name="clip_mode" value="during_render" type="QString"/>
@@ -814,7 +814,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@16@2" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="line" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@16@2" alpha="1" type="line" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -822,7 +822,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleLine">
+            <layer locked="0" class="SimpleLine" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="align_dash_pattern" value="0" type="QString"/>
                 <Option name="capstyle" value="square" type="QString"/>
@@ -863,7 +863,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol name="17" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="17" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -871,7 +871,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="0" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="0">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="255,196,0,255" type="QString"/>
@@ -894,7 +894,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="18" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="18" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -902,7 +902,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="0" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="0">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="255,201,23,255" type="QString"/>
@@ -924,7 +924,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer locked="0" enabled="1" pass="200" class="PointPatternFill">
+        <layer locked="0" class="PointPatternFill" enabled="1" pass="200">
           <Option type="Map">
             <Option name="angle" value="0" type="double"/>
             <Option name="clip_mode" value="shape" type="QString"/>
@@ -964,7 +964,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@18@1" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="marker" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@18@1" alpha="1" type="marker" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -972,7 +972,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleMarker">
+            <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="angle" value="45" type="QString"/>
                 <Option name="cap_style" value="square" type="QString"/>
@@ -1004,7 +1004,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer locked="0" enabled="1" pass="0" class="PointPatternFill">
+        <layer locked="0" class="PointPatternFill" enabled="1" pass="200">
           <Option type="Map">
             <Option name="angle" value="0" type="double"/>
             <Option name="clip_mode" value="shape" type="QString"/>
@@ -1044,7 +1044,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@18@2" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="marker" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@18@2" alpha="1" type="marker" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -1052,7 +1052,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleMarker">
+            <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="angle" value="45" type="QString"/>
                 <Option name="cap_style" value="square" type="QString"/>
@@ -1085,7 +1085,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol name="19" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="19" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -1093,7 +1093,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="0" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="0">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="255,196,0,255" type="QString"/>
@@ -1115,7 +1115,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer locked="0" enabled="1" pass="200" class="PointPatternFill">
+        <layer locked="0" class="PointPatternFill" enabled="1" pass="200">
           <Option type="Map">
             <Option name="angle" value="0" type="double"/>
             <Option name="clip_mode" value="shape" type="QString"/>
@@ -1155,7 +1155,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@19@1" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="marker" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@19@1" alpha="1" type="marker" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -1163,7 +1163,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleMarker">
+            <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="angle" value="45" type="QString"/>
                 <Option name="cap_style" value="square" type="QString"/>
@@ -1195,7 +1195,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer locked="0" enabled="1" pass="0" class="PointPatternFill">
+        <layer locked="0" class="PointPatternFill" enabled="1" pass="200">
           <Option type="Map">
             <Option name="angle" value="0" type="double"/>
             <Option name="clip_mode" value="shape" type="QString"/>
@@ -1235,7 +1235,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@19@2" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="marker" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@19@2" alpha="1" type="marker" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -1243,7 +1243,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleMarker">
+            <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="angle" value="45" type="QString"/>
                 <Option name="cap_style" value="square" type="QString"/>
@@ -1276,7 +1276,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol name="2" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="2" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -1284,7 +1284,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="350" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="350">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="0,0,0,255" type="QString"/>
@@ -1307,7 +1307,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="20" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="0.507">
+      <symbol clip_to_extent="1" frame_rate="10" name="20" alpha="0.507" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -1315,7 +1315,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="0" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="1">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="255,225,127,255" type="QString"/>
@@ -1338,7 +1338,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="21" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="21" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -1346,7 +1346,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="0" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="1">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="255,225,127,255" type="QString"/>
@@ -1368,7 +1368,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer locked="0" enabled="1" pass="200" class="PointPatternFill">
+        <layer locked="0" class="PointPatternFill" enabled="1" pass="200">
           <Option type="Map">
             <Option name="angle" value="0" type="double"/>
             <Option name="clip_mode" value="shape" type="QString"/>
@@ -1408,7 +1408,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@21@1" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="marker" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@21@1" alpha="1" type="marker" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -1416,7 +1416,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleMarker">
+            <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="angle" value="45" type="QString"/>
                 <Option name="cap_style" value="square" type="QString"/>
@@ -1448,7 +1448,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer locked="0" enabled="1" pass="0" class="PointPatternFill">
+        <layer locked="0" class="PointPatternFill" enabled="1" pass="200">
           <Option type="Map">
             <Option name="angle" value="0" type="double"/>
             <Option name="clip_mode" value="shape" type="QString"/>
@@ -1488,7 +1488,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@21@2" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="marker" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@21@2" alpha="1" type="marker" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -1496,7 +1496,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleMarker">
+            <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="angle" value="45" type="QString"/>
                 <Option name="cap_style" value="square" type="QString"/>
@@ -1529,7 +1529,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol name="22" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="22" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -1537,7 +1537,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="0" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="1">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="255,201,23,128" type="QString"/>
@@ -1559,7 +1559,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer locked="0" enabled="1" pass="200" class="PointPatternFill">
+        <layer locked="0" class="PointPatternFill" enabled="1" pass="200">
           <Option type="Map">
             <Option name="angle" value="0" type="double"/>
             <Option name="clip_mode" value="shape" type="QString"/>
@@ -1599,7 +1599,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@22@1" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="marker" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@22@1" alpha="1" type="marker" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -1607,7 +1607,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleMarker">
+            <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="angle" value="45" type="QString"/>
                 <Option name="cap_style" value="square" type="QString"/>
@@ -1639,7 +1639,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer locked="0" enabled="1" pass="0" class="PointPatternFill">
+        <layer locked="0" class="PointPatternFill" enabled="1" pass="200">
           <Option type="Map">
             <Option name="angle" value="0" type="double"/>
             <Option name="clip_mode" value="shape" type="QString"/>
@@ -1679,7 +1679,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@22@2" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="marker" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@22@2" alpha="1" type="marker" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -1687,7 +1687,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleMarker">
+            <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="angle" value="45" type="QString"/>
                 <Option name="cap_style" value="square" type="QString"/>
@@ -1720,7 +1720,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol name="23" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="23" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -1728,7 +1728,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="0" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="2">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="255,255,255,255" type="QString"/>
@@ -1751,7 +1751,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="24" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="24" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -1759,7 +1759,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="200" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="200">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="184,230,185,255" type="QString"/>
@@ -1782,7 +1782,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="25" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="25" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -1790,7 +1790,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="200" class="LinePatternFill">
+        <layer locked="0" class="LinePatternFill" enabled="1" pass="200">
           <Option type="Map">
             <Option name="angle" value="350" type="QString"/>
             <Option name="clip_mode" value="during_render" type="QString"/>
@@ -1821,7 +1821,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@25@0" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="line" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@25@0" alpha="1" type="line" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -1829,7 +1829,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleLine">
+            <layer locked="0" class="SimpleLine" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="align_dash_pattern" value="0" type="QString"/>
                 <Option name="capstyle" value="square" type="QString"/>
@@ -1870,7 +1870,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol name="26" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="26" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -1878,7 +1878,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="200" class="LinePatternFill">
+        <layer locked="0" class="LinePatternFill" enabled="1" pass="200">
           <Option type="Map">
             <Option name="angle" value="90" type="QString"/>
             <Option name="clip_mode" value="during_render" type="QString"/>
@@ -1903,7 +1903,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@26@0" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="line" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@26@0" alpha="1" type="line" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -1911,7 +1911,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleLine">
+            <layer locked="0" class="SimpleLine" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="align_dash_pattern" value="0" type="QString"/>
                 <Option name="capstyle" value="flat" type="QString"/>
@@ -1952,7 +1952,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol name="27" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="0.6">
+      <symbol clip_to_extent="1" frame_rate="10" name="27" alpha="0.6" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -1960,7 +1960,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="200" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="200">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="122,204,124,255" type="QString"/>
@@ -1983,7 +1983,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="28" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="0.6">
+      <symbol clip_to_extent="1" frame_rate="10" name="28" alpha="0.6" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -1991,7 +1991,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="200" class="LinePatternFill">
+        <layer locked="0" class="LinePatternFill" enabled="1" pass="200">
           <Option type="Map">
             <Option name="angle" value="350" type="QString"/>
             <Option name="clip_mode" value="during_render" type="QString"/>
@@ -2022,7 +2022,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@28@0" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="line" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@28@0" alpha="1" type="line" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -2030,7 +2030,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleLine">
+            <layer locked="0" class="SimpleLine" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="align_dash_pattern" value="0" type="QString"/>
                 <Option name="capstyle" value="square" type="QString"/>
@@ -2071,7 +2071,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol name="29" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="29" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -2079,7 +2079,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="200" class="LinePatternFill">
+        <layer locked="0" class="LinePatternFill" enabled="1" pass="200">
           <Option type="Map">
             <Option name="angle" value="90" type="QString"/>
             <Option name="clip_mode" value="during_render" type="QString"/>
@@ -2104,7 +2104,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@29@0" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="line" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@29@0" alpha="1" type="line" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -2112,7 +2112,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleLine">
+            <layer locked="0" class="SimpleLine" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="align_dash_pattern" value="0" type="QString"/>
                 <Option name="capstyle" value="flat" type="QString"/>
@@ -2153,7 +2153,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol name="3" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="3" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -2161,7 +2161,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="0" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="0">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="255,196,0,255" type="QString"/>
@@ -2183,7 +2183,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer locked="0" enabled="1" pass="0" class="PointPatternFill">
+        <layer locked="0" class="PointPatternFill" enabled="1" pass="10">
           <Option type="Map">
             <Option name="angle" value="0" type="double"/>
             <Option name="clip_mode" value="shape" type="QString"/>
@@ -2223,7 +2223,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@3@1" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="marker" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@3@1" alpha="1" type="marker" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -2231,7 +2231,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleMarker">
+            <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="angle" value="315" type="QString"/>
                 <Option name="cap_style" value="square" type="QString"/>
@@ -2270,7 +2270,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol name="30" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="30" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -2278,7 +2278,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="200" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="200">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="0,164,3,255" type="QString"/>
@@ -2301,7 +2301,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="31" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="31" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -2309,7 +2309,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="200" class="LinePatternFill">
+        <layer locked="0" class="LinePatternFill" enabled="1" pass="200">
           <Option type="Map">
             <Option name="angle" value="350" type="QString"/>
             <Option name="clip_mode" value="during_render" type="QString"/>
@@ -2340,7 +2340,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@31@0" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="line" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@31@0" alpha="1" type="line" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -2348,7 +2348,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleLine">
+            <layer locked="0" class="SimpleLine" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="align_dash_pattern" value="0" type="QString"/>
                 <Option name="capstyle" value="square" type="QString"/>
@@ -2389,7 +2389,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol name="32" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="32" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -2397,7 +2397,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="100" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="0">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="255,196,0,255" type="QString"/>
@@ -2419,7 +2419,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer locked="0" enabled="1" pass="250" class="PointPatternFill">
+        <layer locked="0" class="PointPatternFill" enabled="1" pass="200">
           <Option type="Map">
             <Option name="angle" value="0" type="double"/>
             <Option name="clip_mode" value="shape" type="QString"/>
@@ -2459,7 +2459,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@32@1" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="marker" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@32@1" alpha="1" type="marker" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -2467,7 +2467,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleMarker">
+            <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="angle" value="0" type="QString"/>
                 <Option name="cap_style" value="square" type="QString"/>
@@ -2500,7 +2500,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol name="33" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="33" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -2508,7 +2508,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="100" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="0">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="255,201,23,255" type="QString"/>
@@ -2530,7 +2530,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer locked="0" enabled="1" pass="200" class="PointPatternFill">
+        <layer locked="0" class="PointPatternFill" enabled="1" pass="200">
           <Option type="Map">
             <Option name="angle" value="0" type="double"/>
             <Option name="clip_mode" value="shape" type="QString"/>
@@ -2570,7 +2570,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@33@1" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="marker" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@33@1" alpha="1" type="marker" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -2578,7 +2578,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleMarker">
+            <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="angle" value="0" type="QString"/>
                 <Option name="cap_style" value="square" type="QString"/>
@@ -2611,7 +2611,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol name="34" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="34" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -2619,7 +2619,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="100" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="0">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="255,201,23,255" type="QString"/>
@@ -2641,7 +2641,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer locked="0" enabled="1" pass="250" class="LinePatternFill">
+        <layer locked="0" class="LinePatternFill" enabled="1" pass="200">
           <Option type="Map">
             <Option name="angle" value="90" type="QString"/>
             <Option name="clip_mode" value="during_render" type="QString"/>
@@ -2672,7 +2672,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@34@1" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="line" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@34@1" alpha="1" type="line" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -2680,7 +2680,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleLine">
+            <layer locked="0" class="SimpleLine" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="align_dash_pattern" value="0" type="QString"/>
                 <Option name="capstyle" value="flat" type="QString"/>
@@ -2720,7 +2720,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer locked="0" enabled="1" pass="0" class="LinePatternFill">
+        <layer locked="0" class="LinePatternFill" enabled="1" pass="200">
           <Option type="Map">
             <Option name="angle" value="90" type="QString"/>
             <Option name="clip_mode" value="during_render" type="QString"/>
@@ -2751,7 +2751,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@34@2" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="line" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@34@2" alpha="1" type="line" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -2759,7 +2759,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleLine">
+            <layer locked="0" class="SimpleLine" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="align_dash_pattern" value="0" type="QString"/>
                 <Option name="capstyle" value="flat" type="QString"/>
@@ -2800,7 +2800,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol name="35" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="35" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -2808,7 +2808,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="400" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="400">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="230,180,130,255" type="QString"/>
@@ -2831,7 +2831,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="36" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="36" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -2839,7 +2839,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="400" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="400">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="230,180,130,255" type="QString"/>
@@ -2862,7 +2862,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="37" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="37" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -2870,7 +2870,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="100" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="480">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="177,166,27,255" type="QString"/>
@@ -2893,7 +2893,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="38" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="38" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -2901,7 +2901,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="500" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="500">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="128,128,128,255" type="QString"/>
@@ -2911,7 +2911,7 @@
             <Option name="offset_unit" value="MM" type="QString"/>
             <Option name="outline_color" value="0,0,0,255" type="QString"/>
             <Option name="outline_style" value="solid" type="QString"/>
-            <Option name="outline_width" value="0.2" type="QString"/>
+            <Option name="outline_width" value="0" type="QString"/>
             <Option name="outline_width_unit" value="MM" type="QString"/>
             <Option name="style" value="solid" type="QString"/>
           </Option>
@@ -2924,7 +2924,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="39" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="39" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -2932,17 +2932,17 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="500" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="500">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-            <Option name="color" value="0,0,0,255" type="QString"/>
+            <Option name="color" value="128,128,128,0" type="QString"/>
             <Option name="joinstyle" value="miter" type="QString"/>
             <Option name="offset" value="0,0" type="QString"/>
             <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="offset_unit" value="MM" type="QString"/>
             <Option name="outline_color" value="0,0,0,255" type="QString"/>
-            <Option name="outline_style" value="solid" type="QString"/>
-            <Option name="outline_width" value="0.2" type="QString"/>
+            <Option name="outline_style" value="dot" type="QString"/>
+            <Option name="outline_width" value="0.4" type="QString"/>
             <Option name="outline_width_unit" value="MM" type="QString"/>
             <Option name="style" value="solid" type="QString"/>
           </Option>
@@ -2955,7 +2955,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="4" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="4" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -2963,7 +2963,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="0" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="0">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="255,196,0,255" type="QString"/>
@@ -2985,7 +2985,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer locked="0" enabled="1" pass="0" class="PointPatternFill">
+        <layer locked="0" class="PointPatternFill" enabled="1" pass="10">
           <Option type="Map">
             <Option name="angle" value="0" type="double"/>
             <Option name="clip_mode" value="shape" type="QString"/>
@@ -3025,7 +3025,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@4@1" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="marker" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@4@1" alpha="1" type="marker" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -3033,7 +3033,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleMarker">
+            <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="angle" value="315" type="QString"/>
                 <Option name="cap_style" value="square" type="QString"/>
@@ -3072,7 +3072,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol name="40" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="40" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -3080,7 +3080,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="500" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="499">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="204,204,204,255" type="QString"/>
@@ -3090,7 +3090,7 @@
             <Option name="offset_unit" value="MM" type="QString"/>
             <Option name="outline_color" value="0,0,0,255" type="QString"/>
             <Option name="outline_style" value="solid" type="QString"/>
-            <Option name="outline_width" value="0.1" type="QString"/>
+            <Option name="outline_width" value="0" type="QString"/>
             <Option name="outline_width_unit" value="MM" type="QString"/>
             <Option name="style" value="solid" type="QString"/>
           </Option>
@@ -3103,7 +3103,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="41" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="41" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -3111,7 +3111,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="0" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="490">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="230,115,0,255" type="QString"/>
@@ -3134,7 +3134,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="42" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="42" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -3142,7 +3142,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="0" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="490">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="230,115,0,255" type="QString"/>
@@ -3164,7 +3164,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer locked="0" enabled="1" pass="0" class="PointPatternFill">
+        <layer locked="0" class="PointPatternFill" enabled="1" pass="491">
           <Option type="Map">
             <Option name="angle" value="0" type="double"/>
             <Option name="clip_mode" value="shape" type="QString"/>
@@ -3204,7 +3204,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@42@1" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="marker" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@42@1" alpha="1" type="marker" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -3212,7 +3212,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleMarker">
+            <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="angle" value="0" type="QString"/>
                 <Option name="cap_style" value="square" type="QString"/>
@@ -3245,7 +3245,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol name="43" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="43" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -3253,7 +3253,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="0" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="2">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="255,255,255,255" type="QString"/>
@@ -3275,7 +3275,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer locked="0" enabled="1" pass="0" class="PointPatternFill">
+        <layer locked="0" class="PointPatternFill" enabled="1" pass="10">
           <Option type="Map">
             <Option name="angle" value="0" type="double"/>
             <Option name="clip_mode" value="shape" type="QString"/>
@@ -3315,7 +3315,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@43@1" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="marker" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@43@1" alpha="1" type="marker" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -3323,7 +3323,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleMarker">
+            <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="angle" value="0" type="QString"/>
                 <Option name="cap_style" value="square" type="QString"/>
@@ -3356,7 +3356,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol name="44" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="44" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -3364,7 +3364,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="0" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="2">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="255,255,255,255" type="QString"/>
@@ -3386,7 +3386,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer locked="0" enabled="1" pass="0" class="PointPatternFill">
+        <layer locked="0" class="PointPatternFill" enabled="1" pass="10">
           <Option type="Map">
             <Option name="angle" value="0" type="double"/>
             <Option name="clip_mode" value="shape" type="QString"/>
@@ -3426,7 +3426,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@44@1" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="marker" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@44@1" alpha="1" type="marker" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -3434,7 +3434,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleMarker">
+            <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="angle" value="0" type="QString"/>
                 <Option name="cap_style" value="square" type="QString"/>
@@ -3467,7 +3467,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol name="45" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="45" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -3475,7 +3475,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="999" class="PointPatternFill">
+        <layer locked="0" class="PointPatternFill" enabled="1" pass="999">
           <Option type="Map">
             <Option name="angle" value="0" type="double"/>
             <Option name="clip_mode" value="shape" type="QString"/>
@@ -3515,7 +3515,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@45@0" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="marker" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@45@0" alpha="1" type="marker" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -3523,7 +3523,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleMarker">
+            <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="angle" value="90" type="QString"/>
                 <Option name="cap_style" value="square" type="QString"/>
@@ -3556,7 +3556,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol name="5" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="5" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -3564,7 +3564,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="0" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="0">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="255,196,0,255" type="QString"/>
@@ -3586,7 +3586,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer locked="0" enabled="1" pass="350" class="PointPatternFill">
+        <layer locked="0" class="PointPatternFill" enabled="1" pass="350">
           <Option type="Map">
             <Option name="angle" value="0" type="double"/>
             <Option name="clip_mode" value="shape" type="QString"/>
@@ -3626,7 +3626,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@5@1" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="marker" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@5@1" alpha="1" type="marker" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -3634,7 +3634,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleMarker">
+            <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="angle" value="0" type="QString"/>
                 <Option name="cap_style" value="square" type="QString"/>
@@ -3667,7 +3667,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol name="6" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="6" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -3675,7 +3675,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="0" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="0">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="255,196,0,255" type="QString"/>
@@ -3697,7 +3697,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer locked="0" enabled="1" pass="350" class="PointPatternFill">
+        <layer locked="0" class="PointPatternFill" enabled="1" pass="350">
           <Option type="Map">
             <Option name="angle" value="0" type="double"/>
             <Option name="clip_mode" value="shape" type="QString"/>
@@ -3737,7 +3737,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@6@1" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="marker" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@6@1" alpha="1" type="marker" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -3745,7 +3745,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleMarker">
+            <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="angle" value="0" type="QString"/>
                 <Option name="cap_style" value="square" type="QString"/>
@@ -3778,7 +3778,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol name="7" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="7" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -3786,7 +3786,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="0" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="0">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="255,196,0,255" type="QString"/>
@@ -3808,7 +3808,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer locked="0" enabled="1" pass="0" class="RandomMarkerFill">
+        <layer locked="0" class="RandomMarkerFill" enabled="1" pass="10">
           <Option type="Map">
             <Option name="clip_points" value="1" type="QString"/>
             <Option name="count_method" value="1" type="QString"/>
@@ -3825,7 +3825,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@7@1" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="marker" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@7@1" alpha="1" type="marker" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -3833,7 +3833,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleMarker">
+            <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="angle" value="0" type="QString"/>
                 <Option name="cap_style" value="square" type="QString"/>
@@ -3866,7 +3866,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol name="8" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="8" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -3874,7 +3874,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="100" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="1">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="255,225,127,255" type="QString"/>
@@ -3896,7 +3896,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer locked="0" enabled="1" pass="0" class="PointPatternFill">
+        <layer locked="0" class="PointPatternFill" enabled="1" pass="10">
           <Option type="Map">
             <Option name="angle" value="0" type="double"/>
             <Option name="clip_mode" value="shape" type="QString"/>
@@ -3936,7 +3936,7 @@
               <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
-          <symbol name="@8@1" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="marker" alpha="1">
+          <symbol clip_to_extent="1" frame_rate="10" name="@8@1" alpha="1" type="marker" is_animated="0" force_rhr="0">
             <data_defined_properties>
               <Option type="Map">
                 <Option name="name" value="" type="QString"/>
@@ -3944,7 +3944,7 @@
                 <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer locked="0" enabled="1" pass="0" class="SimpleMarker">
+            <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
               <Option type="Map">
                 <Option name="angle" value="0" type="QString"/>
                 <Option name="cap_style" value="square" type="QString"/>
@@ -3983,7 +3983,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol name="9" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1" type="fill" alpha="1">
+      <symbol clip_to_extent="1" frame_rate="10" name="9" alpha="1" type="fill" is_animated="0" force_rhr="0">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -3991,7 +3991,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" enabled="1" pass="350" class="SimpleFill">
+        <layer locked="0" class="SimpleFill" enabled="1" pass="350">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
             <Option name="color" value="192,192,192,255" type="QString"/>
