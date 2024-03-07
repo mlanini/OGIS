@@ -610,6 +610,54 @@
         </Option>
       </Option>
     </Option>
+    <Option type="Map" name="native:difference_4">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:difference" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="4000" name="component_pos_x"/>
+        <Option type="double" value="2344.704949824174" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="Differenza TML strade e sentieri - MU strade" name="component_description"/>
+      <Option type="double" value="39.23725503082096" name="component_height"/>
+      <Option type="double" value="2633.466650393467" name="component_pos_x"/>
+      <Option type="double" value="1185.562776163584" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:difference_4" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="GRID_SIZE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="invalid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:refactorfields_3" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="OVERLAY">
+          <Option type="Map">
+            <Option type="QString" value="native:extractbyattribute_5" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
     <Option type="Map" name="native:difference_5">
       <Option type="bool" value="true" name="active"/>
       <Option name="alg_config"/>
@@ -859,7 +907,7 @@
         <Option type="bool" value="true" name="outputs_collapsed"/>
         <Option type="bool" value="true" name="parameters_collapsed"/>
       </Option>
-      <Option type="QString" value="Crea Clipper da AOI" name="component_description"/>
+      <Option type="QString" value="Crea Clipper" name="component_description"/>
       <Option type="double" value="30" name="component_height"/>
       <Option type="double" value="1046.2617665656774" name="component_pos_x"/>
       <Option type="double" value="309.780641704655" name="component_pos_y"/>
@@ -1086,6 +1134,59 @@
           <Option type="Map">
             <Option type="int" value="2" name="source"/>
             <Option type="QString" value="301" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:extractbyattribute_5">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:extractbyattribute" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="4705.5824765414645" name="component_pos_x"/>
+        <Option type="double" value="2283.367792376315" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="Estrai per attributo MU copertura suolo strade" name="component_description"/>
+      <Option type="double" value="37.88027459329055" name="component_height"/>
+      <Option type="double" value="1603.0333543007255" name="component_pos_x"/>
+      <Option type="double" value="932.1087774863748" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:extractbyattribute_5" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="FIELD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="code" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:multiparttosingleparts_8" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="OPERATOR">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="0" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="VALUE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="501E" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -2453,11 +2554,6 @@
         </Option>
         <Option type="List" name="LAYERS">
           <Option type="Map">
-            <Option type="QString" value="native:refactorfields_3" name="child_id"/>
-            <Option type="QString" value="OUTPUT" name="output_name"/>
-            <Option type="int" value="1" name="source"/>
-          </Option>
-          <Option type="Map">
             <Option type="QString" value="native:refactorfields_4" name="child_id"/>
             <Option type="QString" value="OUTPUT" name="output_name"/>
             <Option type="int" value="1" name="source"/>
@@ -2489,6 +2585,11 @@
           </Option>
           <Option type="Map">
             <Option type="QString" value="native:difference_3" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+          <Option type="Map">
+            <Option type="QString" value="native:difference_4" name="child_id"/>
             <Option type="QString" value="OUTPUT" name="output_name"/>
             <Option type="int" value="1" name="source"/>
           </Option>
@@ -5081,7 +5182,7 @@
     </Option>
   </Option>
   <Option type="Map" name="designerParameterValues">
-    <Option type="QString" value="2709394.248600000,2720601.823600000,1111648.851600000,1115187.653700000 [EPSG:2056]" name="aoi"/>
+    <Option type="QString" value="2709580.692300000,2720415.379800000,1111707.721400000,1115128.783900000 [EPSG:2056]" name="aoi"/>
     <Option type="QString" value="ti_dtm_dba43363_52e6_41da_b14a_bf48fa893b37" name="dtm"/>
   </Option>
   <Option name="groupBoxes"/>
@@ -5148,8 +5249,8 @@
       </Option>
       <Option type="QString" value="aoi" name="component_description"/>
       <Option type="double" value="30" name="component_height"/>
-      <Option type="double" value="587.7649701615735" name="component_pos_x"/>
-      <Option type="double" value="267.08991107724694" name="component_pos_y"/>
+      <Option type="double" value="633.9512453156783" name="component_pos_x"/>
+      <Option type="double" value="230.1408909539631" name="component_pos_y"/>
       <Option type="double" value="200" name="component_width"/>
       <Option type="QString" value="aoi" name="name"/>
       <Option type="bool" value="true" name="outputs_collapsed"/>
