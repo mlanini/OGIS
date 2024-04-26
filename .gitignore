@@ -205,3 +205,9 @@ qgis3modeler/20230413_ogd2ogis.model3
 ogis2web.qgz
 omap.qgs
 qgis3modeler/20230413_ogd2ogis.model3
+models/generateCodelistsCSV.fmw
+models/ISOM_Codes_Line_IT.csv
+models/ISOM_Codes_Point_IT.csv
+models/ISOM_Codes_Surface_IT.csv
+qgis3modeler/20240308_mtbomap_extractor.model3
+models/generateCodelistsCSV.log
